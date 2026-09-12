@@ -1,0 +1,18 @@
+{
+  "anonymous_clone_succeeded": true,
+  "branch": "main",
+  "historical_receipts": "retained unchanged; original private Git history excluded",
+  "journal_or_arxiv_submission": false,
+  "manuscript_pdf_sha256": "383d4c8c1540317843c60f2e72fcd0597209a2ef6473003fb192014036ac3013",
+  "new_research_experiments_started": false,
+  "public_commit": "ef57f97255abf5955108456952536c8e97e9dd1c",
+  "publication_priority": "UNRESOLVED",
+  "publication_replay": "PASS in exported snapshot; figures byte-identical to frozen originals",
+  "repository": "https://github.com/Njakasoa/self-avoiding-walk-lab",
+  "snapshot_files_verified": 209,
+  "snapshot_manifest_sha256": "297dd58b49df25302d6ec70b97836d4682d6ee3946fdaa5dd4faa3a6fe25d305",
+  "source_revision": "28f4aa62a91d8605f6ff8fc3d95f5b2701bd96da",
+  "status": "PUBLISHED_AND_VERIFIED",
+  "tests": "54 passed in 10.40s in the exported snapshot",
+  "visibility": "public"
+}

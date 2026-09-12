@@ -1,0 +1,76 @@
+{
+  "directed": {
+    "checks": {
+      "G_minus_one": true,
+      "G_zero": true,
+      "beta_plus_gamma": true,
+      "kernel_relation_is_cleared": true,
+      "recurrence_k_1": true,
+      "recurrence_k_2": true,
+      "recurrence_k_3": true,
+      "recurrence_k_4": true,
+      "recurrence_k_5": true,
+      "recurrence_k_6": true,
+      "recurrence_k_7": true,
+      "summand_identity_k_1": true,
+      "summand_identity_k_2": true,
+      "summand_identity_k_3": true,
+      "summand_identity_k_4": true,
+      "summand_identity_k_5": true,
+      "summand_identity_k_6": true,
+      "summand_identity_k_7": true
+    },
+    "classification": "EXACT RECURRENCE IDENTITIES; BOUNDED NUMERICAL CHECKS",
+    "critical_checks": {
+      "G_minus_one": true,
+      "G_zero": true,
+      "recurrence_k_1": true,
+      "recurrence_k_2": true,
+      "recurrence_k_3": true,
+      "recurrence_k_4": true,
+      "recurrence_k_5": true,
+      "recurrence_k_6": true,
+      "recurrence_k_7": true
+    },
+    "critical_formula": "G_k(sigma)=sigma^k*((1-sigma)+(1-2*sigma)*k)",
+    "critical_partial_sums": {
+      "10": "3.76307132569128315577622055699",
+      "100": "8.61671165481977029430006086236",
+      "1000": "14.0923709560635608945290475441",
+      "10000": "19.6428165057148324942657798782"
+    },
+    "kernel_relation": "q**2*t - q*t**3 - q*t**2 + q*t - q + t",
+    "samples": [
+      {
+        "partial_D_200": "0.125001931931440176269427758611",
+        "q": "0.111125001758037748934285587092",
+        "t": "0.1"
+      },
+      {
+        "partial_D_200": "0.760456322147205055467076050786",
+        "q": "0.437471821890354840310897114585",
+        "t": "0.3"
+      },
+      {
+        "partial_D_200": "2.71961404255318470236088038995",
+        "q": "0.783220746414938680729163134526",
+        "t": "0.4"
+      },
+      {
+        "partial_D_200": "7.60157597722933011393420736482",
+        "q": "0.971185034920032460366282497794",
+        "t": "0.414"
+      }
+    ],
+    "scope": "The proof file establishes positivity, local holomorphy, and the uniform D_I limit; these finite checks do not establish a non-D-finiteness theorem for W by themselves."
+  },
+  "quotients": {
+    "F": "-4*H + P*(-2*di - t + 3) - 2*di - t - 1",
+    "checks": {
+      "I_minus_one_numerator": true,
+      "W_quotient_identity": true,
+      "critical_F_specialization": true
+    },
+    "classification": "EXACT RATIONAL IDENTITIES"
+  }
+}

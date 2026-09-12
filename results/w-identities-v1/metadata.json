@@ -1,0 +1,37 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.w_research_batch identities w-identities-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "w-identities-v1",
+  "git_commit": "9a63181dc11100fa4dfccdea510650976383ffb3",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/w_directed_ramps_check.py": "fe22d8c9555ed75fbfe028921078b8a4f6b385652d83a31543ddb78dfdeb258a",
+    "experiments/w_exact_identities.py": "f9235194226ebb8ba2c553952d616e60a391f4c62721bb6630cf33efad020944",
+    "experiments/w_research_batch.py": "2647d41a37b4575a6728d38b2faf237f5c67b5bacf9a82060ed663456eceb5b1",
+    "papers/bacher-beaton-2014.pdf": "04205e9fafa5330cb518e4c22a3db6f5677cddc915342fae83acbe076039b2c0",
+    "proofs/M3_NON_DFINITE_CANDIDATE.md": "e184726e834116e8eaf9d83926e571f40f4f2883eda1114b05c231872ec0a627",
+    "proofs/W_DIRECTED_RAMPS.md": "35414207069e48a40c9d4d27cef0eb9c139a211a2a0185ea6480e91dc2cc2b61",
+    "proofs/W_NON_DFINITE.md": "351372992c252773a291f78b38a3521e68be7d60113145ff05087509c217780a",
+    "publication/main.tex": "d020e1c1d58e08bc642e74d7da5a1f02df33eb42defcfd6053d1a7bf250fd0e0",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "4f10effbe0d6dd04ed41228d50bcfa1640e450e2ea3e7a12c6d6f4f09fd554fa"
+  },
+  "parameters": {
+    "directed_recurrence_max_k": 7,
+    "numeric_dps": 70
+  },
+  "peak_rss_kib_process": 58616,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.49285826599953,
+  "seed": null,
+  "utc": "2026-09-12T11:20:21.932820+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Cite this research companion and the accompanying internally reviewed manuscript. Publication priority remains unresolved."
-title: "Self-Avoiding Walk Lab: non-D-finiteness of irreducible NE-prudent ramps"
+message: "Cite this research companion and the accompanying internally reviewed J and W proofs. Publication priority remains unresolved."
+title: "Self-Avoiding Walk Lab: non-D-finiteness of prudent ramps and weakly prudent bridges"
 type: software
 authors:
   - name: "Self-Avoiding Walk Lab"

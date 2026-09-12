@@ -1,5 +1,16 @@
 # Feuille de route post-M3/M4 — 12 septembre 2026
 
+> Mise à jour après exécution de P1 : le [dossier W](W_ACCEPTANCE.md)
+> contient une preuve complète acceptée en revue interne, un certificat exact
+> des signes limites et les essais finis, y compris leurs échecs aux petits
+> indices. Le plan initial ci-dessous est conservé comme historique ; ses
+> mentions de W « ouvert dans ce dossier » sont désormais dépassées.
+> Restent la relecture externe et la priorité (P0), puis les restes effectifs,
+> un premier indice garanti et les résidus pour J et W (P2), avant P3.
+> Suite choisie par l'utilisateur : préparer P0. Le
+> [guide de relecture J/W](publication/REVIEW_J_W.md) est prêt ; aucun
+> chercheur externe n'a été contacté et aucun avis externe n'est acquis.
+
 Cette feuille de route part du niveau accepté dans `M3_ACCEPTANCE.md` et
 `M4_ACCEPTANCE.md` : le résultat interne porte sur
 $J=P_I=(P-H)/(1+P)$, la série des rampes $NE$-prudentes irréductibles,
