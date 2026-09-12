@@ -1,0 +1,5 @@
+{
+  "checks": "pass",
+  "classification": "exact rational checks; decimal summary only",
+  "derivative_bound_decimal_summary": 1.032293710817869
+}

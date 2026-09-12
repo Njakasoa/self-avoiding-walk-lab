@@ -1,0 +1,19 @@
+{
+  "N_unique": "10^27",
+  "full_W_theory_goal": "OPEN: finite-to-asymptotic index coverage unproved",
+  "moment_error": "10^21/N",
+  "normalized_residue_error_rate": "O(log(N)^2/N)",
+  "phase_error_rate": "O(1/N)",
+  "position_error_rate": "O(1/N^4)",
+  "receipt": "m9-linear-v1",
+  "reviewed_source_hashes": {
+    "experiments/m9_linear_batch.py": "12dd8c5a2ae8c715184bf68cac5b939eb7e4efca52b56a0822cda08407a5ef18",
+    "proofs/M9_COMPLEX_KERNEL_LINEAR.md": "cb383687009961812dbed481071b48ad9c86a1cfc78de424fd8a927b6219ce52",
+    "proofs/M9_LINEAR_MOMENT_RATE.md": "4510f1e74fec80c9d96018918c1e17e230e7afc7942d496e706255df87dc573c",
+    "proofs/M9_PHASE_RESIDUE_RATE.md": "7ff526d4b96128d9afddcae9b0bbc898f9f767a9c9813584b7419010a68ee611",
+    "proofs/M9_PRODUCT_VARIATION.md": "4830bf678a5733af94a927db275dda1f9ca61ab5e52d66daac4ac13b700a1ab8",
+    "proofs/M9_UNIQUENESS_THRESHOLD.md": "099a6838b1afdd73806a25b6d278ba5febc17e418b8f0d8014d5c93bf42fb98d",
+    "proofs/m9_linear_bounds.py": "4cb493028aeae8c51a32f60693848889296a70c6547feaa44adbc97cf54f1538"
+  },
+  "status": "PASS: M9 linear-rate arithmetic and source provenance"
+}

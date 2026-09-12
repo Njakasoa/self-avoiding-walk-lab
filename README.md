@@ -1,5 +1,10 @@
 # Self-Avoiding Walk Lab
 
+**Recherche en pause — reprise ouverte : [guide de reprise M5–M14](RESEARCH_HANDOFF.md).**
+M13 établit l’unicité conditionnelle dans chaque bande N >= 32. M14 reste
+une preuve candidate ; la couverture d’existence de tous les indices est ouverte.
+
+
 A reproducible research companion on **non-D-finiteness of irreducible
 NE-prudent ramps and two-sided weakly prudent bridges**, maintained by
 [Njakasoa](https://github.com/Njakasoa).
@@ -65,7 +70,7 @@ certificate, verifies five finite pole brackets and geometric coefficients
 through length 12, then regenerates the figure. It needs no account or API key.
 Python -O is rejected because it would disable checker assertions.
 
-The original lab's final full suite passed **54 tests**. A second isolated
+The earlier J/W publication suite passed **54 tests**; the M13 checkpoint passed **62 tests**. A second isolated
 copy reproduced the publication calculations and byte-identical figures;
 source tampering and disabled assertions were rejected. The analytical
 infinite-pole proof remains a mathematical argument, not a proof-assistant

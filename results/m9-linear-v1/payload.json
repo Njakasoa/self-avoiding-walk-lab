@@ -1,0 +1,479 @@
+{
+  "analytic_hypotheses": {
+    "M9_COMPLEX_KERNEL_LINEAR": [
+      "inherited M7 principal-root sector and polynomial derivative bounds",
+      "M8 phase inverse fixed point and exterior/root separation",
+      "normal convergence, source-pole exclusion, and inherited norm ledger"
+    ],
+    "M9_LINEAR_MOMENT_RATE": [
+      "accepted M8 discrete primitive identity and positive weight measure",
+      "M6 gamma/product envelopes and M9 bounded-variation product estimate",
+      "Tonelli, absolute continuity, and all pointwise kernel/weight hypotheses"
+    ],
+    "M9_PHASE_RESIDUE_RATE": [
+      "M9 phase mean-value estimate and M8 analytic quotient decomposition",
+      "Jacobian and numerator bounds, including |F_N'|<29",
+      "local holomorphy and the displayed coarse residue sign hypotheses"
+    ],
+    "M9_PRODUCT_VARIATION": [
+      "accepted M6 monotonicity and exterior g0 separation",
+      "accepted removable critical value and middle Cauchy derivative bound",
+      "accepted 0<R_e<=1, psi<=0, and scalar r damping"
+    ],
+    "M9_UNIQUENESS_THRESHOLD": [
+      "M9 linear moment error and complex holomorphy domain",
+      "M5/M6 critical endpoint margins and new M9 endpoint transfer",
+      "M7 differentiated denominator identity",
+      "directed logarithm bounds, source-pole exclusion, and phase Jacobian sign"
+    ]
+  },
+  "checks": {
+    "complex_domain": {
+      "common_linear_error": {
+        "bound": "10000000000000",
+        "relation": "<",
+        "value": "2006505000000"
+      },
+      "discriminant_difference_scale": {
+        "bound": "4000000000000001/3125000000000000000000000000",
+        "relation": "<=",
+        "value": "40000000000000001/31250000000000000000000000000"
+      },
+      "domain_inside_sector": {
+        "bound": "1/100000000",
+        "relation": "<=",
+        "value": "1/1000000000000000"
+      },
+      "ellipse_horizontal_margin": {
+        "bound": "7/100",
+        "relation": "<",
+        "value": "709/13200"
+      },
+      "ellipse_vertical_margin": {
+        "bound": "1/50",
+        "relation": "<",
+        "value": "259/13200"
+      },
+      "eta_perturbation": {
+        "relation": "==",
+        "target": "1/50000000",
+        "value": "1/50000000"
+      },
+      "exterior_g_fraction": {
+        "bound": "6000000000",
+        "relation": "<",
+        "value": "48002000000/9"
+      },
+      "exterior_g_loss": {
+        "bound": "1/62500000000",
+        "relation": "<=",
+        "value": "1/62500000000"
+      },
+      "exterior_root_fraction": {
+        "bound": "6000000000",
+        "relation": "<",
+        "value": "500000000"
+      },
+      "fixed_point_threshold": {
+        "bound": "1000000",
+        "relation": ">",
+        "value": "1000000000000000"
+      },
+      "joint_norm_ledger": {
+        "bound": "100000000",
+        "relation": "<",
+        "value": "84800100"
+      },
+      "kernel_quotient_coefficient": {
+        "relation": "==",
+        "target": "4183718750001/200000000",
+        "value": "4183718750001/200000000"
+      },
+      "kernel_quotient_constant": {
+        "bound": "25000",
+        "relation": "<",
+        "value": "4183718750001/200000000"
+      },
+      "logarithm_remainder": {
+        "relation": "==",
+        "target": "450664",
+        "value": "450664"
+      },
+      "logarithm_remainder_allowance": {
+        "bound": "5000000",
+        "relation": "<",
+        "value": "450664"
+      },
+      "omega_contains_real_band_left": {
+        "bound": "4/5",
+        "relation": "<",
+        "value": "39/50"
+      },
+      "omega_contains_real_band_right": {
+        "bound": "23/25",
+        "relation": "<",
+        "value": "9/10"
+      },
+      "prefix_sum_at_domain": {
+        "bound": "1/10",
+        "relation": "<=",
+        "value": "1/10"
+      },
+      "prefix_sum_below_half": {
+        "bound": "1/2",
+        "relation": "<",
+        "value": "1/10"
+      },
+      "root_displacement": {
+        "relation": "==",
+        "target": "3/62500000000000",
+        "value": "3/62500000000000"
+      },
+      "scalar_damping": {
+        "relation": "==",
+        "target": "1/250000000",
+        "value": "1/250000000"
+      },
+      "sector_threshold": {
+        "bound": "1/100000000",
+        "relation": "<=",
+        "value": "1/1000000000000000"
+      },
+      "square_root_constant": {
+        "relation": "==",
+        "target": "16000",
+        "value": "16000"
+      }
+    },
+    "critical_weights": {
+      "kernel_derivative_bound": {
+        "bound": "2",
+        "relation": "<",
+        "value": "63/34"
+      },
+      "lambda_upper": {
+        "bound": "2",
+        "relation": "<",
+        "value": "200/117"
+      },
+      "local_density_bound": {
+        "bound": "41000",
+        "relation": "<",
+        "value": "40180"
+      },
+      "local_psi_bound": {
+        "bound": "1000",
+        "relation": "<",
+        "value": "1875/2"
+      },
+      "weighted_variation_moment": {
+        "relation": "==",
+        "target": "200",
+        "value": "200"
+      }
+    },
+    "phase_residue_rate": {
+      "R_theta": {
+        "bound": "417/500000000",
+        "relation": "<",
+        "value": "18000000000000000000023750000000000000000000000009/21600000000000000000000000000000000000000000000000000000"
+      },
+      "R_theta_position": {
+        "bound": "3/25000000",
+        "relation": "<",
+        "value": "18000000000000000000023750000000000000000000000009/151200000000000000000000000000000000000000000000000000000"
+      },
+      "coarse_residue_lower": {
+        "bound": "1/6000",
+        "relation": ">",
+        "value": "49/145000"
+      },
+      "coarse_residue_upper": {
+        "bound": "1/20",
+        "relation": "<",
+        "value": "8/975"
+      },
+      "curvature": {
+        "bound": "1300",
+        "relation": "<",
+        "value": "1224"
+      },
+      "jacobian_normalized_lower": {
+        "bound": "7/2500",
+        "relation": ">",
+        "value": "2812499999999999999999999/1000000000000000000000000000"
+      },
+      "jacobian_normalized_upper": {
+        "bound": "1/250",
+        "relation": "<",
+        "value": "3700000000000000000000001/1000000000000000000000000000"
+      },
+      "jacobian_slack": {
+        "bound": "1",
+        "relation": "<",
+        "value": "416250000000000001/62500000000000000000"
+      },
+      "quotient_error": {
+        "bound": "3/500",
+        "relation": "<",
+        "value": "37/6400"
+      }
+    },
+    "primitive_ledger": {
+      "boundary_constant": {
+        "bound": "1200000",
+        "relation": "<",
+        "value": "127500493/203"
+      },
+      "cell_interpolation": {
+        "bound": "4000000",
+        "relation": "<",
+        "value": "3280000"
+      },
+      "closest_Q": {
+        "bound": "700",
+        "relation": "<",
+        "value": "20000/29"
+      },
+      "closest_Qe": {
+        "bound": "75000",
+        "relation": "<",
+        "value": "520000/7"
+      },
+      "closest_sum": {
+        "bound": "76000",
+        "relation": "<",
+        "value": "15220000/203"
+      },
+      "far_local": {
+        "bound": "40000000000",
+        "relation": "<",
+        "value": "32800000000"
+      },
+      "final_coefficient": {
+        "relation": "==",
+        "target": "288360100001536000000",
+        "value": "288360100001536000000"
+      },
+      "final_coefficient_allowance": {
+        "bound": "1000000000000000000000",
+        "relation": "<",
+        "value": "288360100001536000000"
+      },
+      "near_local": {
+        "bound": "70000000000",
+        "relation": "<",
+        "value": "65436000000"
+      },
+      "outside_weighted": {
+        "relation": "==",
+        "target": "80000000",
+        "value": "80000000"
+      },
+      "primitive_total": {
+        "relation": "==",
+        "target": "9864065488000000",
+        "value": "9864065488000000"
+      },
+      "primitive_total_allowance": {
+        "bound": "18000000000000000",
+        "relation": "<",
+        "value": "9864065488000000"
+      }
+    },
+    "total_variation": {
+      "B_dominates_TV": {
+        "bound": "1000000000000",
+        "relation": "<",
+        "value": "4000000000"
+      },
+      "B_dominates_scalar_log": {
+        "bound": "1000000000000",
+        "relation": "<",
+        "value": "10"
+      },
+      "eta_exterior": {
+        "bound": "27",
+        "relation": "<",
+        "value": "155/6"
+      },
+      "eta_square_below_one": {
+        "bound": "1",
+        "relation": "<",
+        "value": "1/2"
+      },
+      "exterior_total": {
+        "bound": "700",
+        "relation": "<",
+        "value": "56585/87"
+      },
+      "g_exterior": {
+        "bound": "625",
+        "relation": "<",
+        "value": "36225/58"
+      },
+      "kappa_coarse_ratio": {
+        "relation": "==",
+        "target": "9/29",
+        "value": "9/29"
+      },
+      "kappa_upper": {
+        "bound": "9/29",
+        "relation": "<",
+        "value": "6889/23400"
+      },
+      "middle_total": {
+        "relation": "==",
+        "target": "3000000000",
+        "value": "3000000000"
+      },
+      "one_minus_sigma_lower": {
+        "bound": "29/50",
+        "relation": ">",
+        "value": "117/200"
+      },
+      "sigma_square_lower_reference": {
+        "relation": "==",
+        "target": "4/25",
+        "value": "4/25"
+      },
+      "sigma_square_upper": {
+        "bound": "9/50",
+        "relation": "<",
+        "value": "6889/40000"
+      },
+      "total_variation_bound": {
+        "bound": "4000000000",
+        "relation": "<",
+        "value": "3000000700"
+      }
+    },
+    "uniqueness_threshold": {
+      "E1_allowance": {
+        "bound": "201/1000",
+        "relation": "<",
+        "value": "27534057474582155530219099912083966928422466862584141943290937773002571226124040844438169126324728822240230252380354787083146417015153/137383384696616942818279674988087162577219951335206291621706472032363485897762652666794297736608199262008806688326118114894387609600000"
+      },
+      "E_at_N_1e27": {
+        "relation": "==",
+        "target": "1/1000000",
+        "value": "1/1000000"
+      },
+      "F_prime_absolute_lower": {
+        "bound": "1",
+        "relation": ">",
+        "value": "39/10"
+      },
+      "F_prime_absolute_upper": {
+        "bound": "29",
+        "relation": "<",
+        "value": "14002000000000000000000240000000000000000000000000000009/500000000000000000000000000000000000000000000000000000"
+      },
+      "F_prime_upper": {
+        "bound": "-39/10",
+        "relation": "<",
+        "value": "-1997999999999999999999759999999999999999999999999999991/500000000000000000000000000000000000000000000000000000"
+      },
+      "chebyshev_M": {
+        "relation": "==",
+        "target": "100000100",
+        "value": "100000100"
+      },
+      "chebyshev_degree": {
+        "relation": "==",
+        "target": "97",
+        "value": "97"
+      },
+      "chebyshev_q": {
+        "relation": "==",
+        "target": "15/22",
+        "value": "15/22"
+      },
+      "delta_sigma_over_log": {
+        "bound": "1/125",
+        "relation": "<",
+        "value": "7/900"
+      },
+      "delta_upper": {
+        "bound": "1/125",
+        "relation": "<",
+        "value": "7/900"
+      },
+      "denominator_comparison": {
+        "bound": "3/20",
+        "relation": "<",
+        "value": "64002000000000000000000000000000000000000000000000001/500000000000000000000000000000000000000000000000000000"
+      },
+      "denominator_upper": {
+        "bound": "1",
+        "relation": "<",
+        "value": "77/125"
+      },
+      "derivative_error": {
+        "bound": "201/1000",
+        "relation": "<",
+        "value": "27534057474582155530219099912083966928422466862584141943290937773002571226124040844438169126324728822240230252380354787083146417015153/137383384696616942818279674988087162577219951335206291621706472032363485897762652666794297736608199262008806688326118114894387609600000"
+      },
+      "directed_remainder": {
+        "bound": "3/4",
+        "relation": "<",
+        "value": "81/10000000000000000000000000"
+      },
+      "exp2_upper": {
+        "bound": "10",
+        "relation": "<",
+        "value": "67/9"
+      },
+      "exp3_lower": {
+        "bound": "10",
+        "relation": ">",
+        "value": "13"
+      },
+      "left_endpoint": {
+        "bound": "0",
+        "relation": ">",
+        "value": "17/20"
+      },
+      "numerator_lower": {
+        "bound": "-8",
+        "relation": ">",
+        "value": "-7500001/1000000"
+      },
+      "numerator_upper": {
+        "bound": "-7/2",
+        "relation": "<",
+        "value": "-3599999/1000000"
+      },
+      "right_endpoint": {
+        "bound": "0",
+        "relation": "<",
+        "value": "-1/20"
+      }
+    }
+  },
+  "classification": "EXACT FRACTION ARITHMETIC ONLY; analytic hypotheses are listed separately and require proof/review",
+  "constants": {
+    "B": "1000000000000",
+    "F_prime_upper_allowance": "-39/10",
+    "K_eta": "300000",
+    "N_complex": "10^15",
+    "N_unique": "10^27",
+    "R_theta_upper_allowance": "834/10^9",
+    "chebyshev_M": "100000100",
+    "chebyshev_degree": 97,
+    "chebyshev_q": "15/22",
+    "coarse_F_prime_absolute_upper": "29",
+    "derivative_allowance": "201/1000",
+    "e_error": "1/1000000",
+    "final_coefficient": "288360100001536000000"
+  },
+  "scope": {
+    "complex_domain": "N>=10^15",
+    "frozen_sources_edited": false,
+    "moment_error": "|P_N-P0|+|H_N-H0|<10^21 e",
+    "novelty_claim": false,
+    "phase_residue_scope": "N>=10^27",
+    "uniqueness_threshold": "N>=10^27"
+  },
+  "status": "PASS"
+}

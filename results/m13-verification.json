@@ -1,0 +1,64 @@
+{
+  "all_index_existence": "NOT PROVED",
+  "combination": {
+    "all_index_existence": "NOT PROVED",
+    "full_derivative_upper": "-3141/64000",
+    "new_scan": "NONE",
+    "strictly_below_minus_1_over_25": true
+  },
+  "components": {
+    "boundary": "6/(5*N^2)",
+    "mass_general": true,
+    "mass_low_indices": true,
+    "middle": "-3/56",
+    "pre_phase": true,
+    "tail": true
+  },
+  "conclusion": "F_theta<-3141/64000<-1/25; at most one zero per band, and any zero yields a simple noncancelled W pole",
+  "domain": {
+    "N_min": 32,
+    "phase_band": [
+      "4/5",
+      "9/10"
+    ]
+  },
+  "full_W_coverage": "OPEN: existence for intermediate 32<=N<10^27 remains unproved apart from frozen finite checkpoints",
+  "new_scan": "NONE",
+  "receipt": "m13-phase-v1",
+  "reviewed_source_hashes": {
+    "proofs/M13_BOUNDARY_REVIEW.md": {
+      "proofs/M13_BOUNDARY_PHASE.md": "742296c6c8a2892503f2054461c5220e158935e6062494651e7e08174e7b2d93",
+      "proofs/m13_boundary_bounds.py": "909b95e419da54a6c35ea7c5e4a6af67db537da4914f8f6ed0f484f159972b8f"
+    },
+    "proofs/M13_COMBINATION_REVIEW.md": {
+      "proofs/M13_UNIFORM_PHASE_DERIVATIVE.md": "36e69716d43dba04c18fd2855e2b2acd6df2bca1833023372c50f66339f4486b",
+      "proofs/m13_combination_bounds.py": "57234d89f0520708587b9619531c991d50e6ed43ffaefdd7f33fab66a70d8f8d"
+    },
+    "proofs/M13_MIDDLE_REVIEW.md": {
+      "proofs/M13_MIDDLE_MASS.md": "9865db56835727781f833744741307f8687ae9e2bcf64c70879bd3360799de2f",
+      "proofs/m13_middle_bounds.py": "2cb9be5f9bceaa74e86768a0f180a6e93581c9970abafcbb97332edf5e69b6b3"
+    },
+    "proofs/M13_MIDDLE_STRENGTHENED_REVIEW.md": {
+      "proofs/M13_MIDDLE_STRENGTHENED.md": "5f2391e0e39a52ea73486fafb628997955670896dcbf849fadb81424b454c101",
+      "proofs/m13_middle_strengthened.py": "02977a1ae9654efd9c161c3a8144af53190a70f65cbff89957202eccc62bf9d8"
+    },
+    "proofs/M13_PRE_MASS_REVIEW.md": {
+      "proofs/M13_PRE_MASS.md": "b8a50734cbe6d36c9cc6f7b75ca0caa3022efa1a6a390d9251f7a4337509e513",
+      "proofs/m13_mass_bounds.py": "d4b4253487cdf6cd619a8d0bf116ed874fd1f8feacf9890c97ab66093a9161db",
+      "proofs/m7_finite_poles.py": "3712829fbf510e558e9215c7219731b40678ca9525e36387bb1f9d528f912c26"
+    },
+    "proofs/M13_PRE_PHASE_REVIEW.md": {
+      "proofs/M13_PRE_CROSSING_RESEARCH.md": "e9aabeb8534e5b8c7a35319ec177fecc2d00e92a32ba7b73e39e8f2139776e5e",
+      "proofs/m13_pre_phase_bounds.py": "99e856af48d5f7fe78f17a0d246ab745aad1a24f3770aea179d844d2c16e164e"
+    },
+    "proofs/M13_TAIL_REVIEW.md": {
+      "proofs/M13_TAIL_PHASE_BOUND.md": "6601ca6f1e6e1bcb8c30fcb3b3a3539b7555b4945a23a33ca3253df66b77cbde",
+      "proofs/m13_tail_bounds.py": "12039e0314c7fb7b86ba92e18501cc6dcd3730b0218bc7fd732262472660b07f"
+    },
+    "proofs/M13_WRAPPER_REVIEW.md": {
+      "experiments/m13_phase_batch.py": "7cf4d6f69d96fe1666d162f7b2fec51cf55190c4f827068d48996f17dd25ed9c",
+      "proofs/check_m13.py": "9e0c3f02680b9302dbac28141ff5b71fe68e6f8e1d13af95fe74e1c67d672907"
+    }
+  },
+  "status": "PASS: reviewed M13 uniform real phase derivative package"
+}

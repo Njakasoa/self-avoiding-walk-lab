@@ -1,0 +1,91 @@
+{
+  "first_cell_review": {
+    "cell0_matches_canonical": true,
+    "input_sha256": {
+      "experiments/m10_full_band_batch.py": "e3cd1a4b4a486358fcf61889e026d9f2de9f62463c6e8431c07ae300e7b47041",
+      "proofs/M10_FULL_BAND.md": "9cf6e1e014a66595765acda379db3752988af18e7e660eb2b9d893f2861fd923",
+      "proofs/M5_DIRECTED_REFINED.md": "08668a0ddbba107c2f56cc88e0d5f1b549c9ddec92490f4d35ba5f4e4005e38a",
+      "proofs/M7_FINITE_TAIL.md": "89869ff06633e9a9daa17ca63f848d47fcf3ba5b5c18aee1ee48b151347e48d7",
+      "proofs/M8_FINITE_DERIVATIVES.md": "48c4d53e7e63a12ed169ee5a0cbaca57bd7236d467b9e243cce79f7048b796a9",
+      "proofs/m10_full_band.py": "8372d4cf50e291edc0700a49a9ad08ddbe4bf9e3a71d6efd77a9e4b10f140079",
+      "proofs/m5_phase_domain.py": "76b0b18fcb282e9d303754293258a1dedc7069514032814d9a833eba55310c97",
+      "proofs/m7_finite_poles.py": "3712829fbf510e558e9215c7219731b40678ca9525e36387bb1f9d528f912c26",
+      "proofs/m8_finite_derivatives.py": "f721495320cd7439cc7079c24205c818e5bc02834322e2b8f142d0ccf8e887c4",
+      "results/m7-finite-v1/payload.json": "75641df0f1a84d231e058302b89d8b5a603a4914a9ddd2b84601c1cf2b50f87f"
+    },
+    "output_sha256": "72e73fcce174b5979afecd73bad594402a110539f0466377893667a8a960a246",
+    "source_commit": "ce376e85793887f770b35fc80e180e35f4b2ff18"
+  },
+  "full_W_coverage": "OPEN: no claim for unlisted N or complete asymptotic coverage",
+  "full_band": {
+    "adjacent_geometry": true,
+    "cells": 128,
+    "diagnostic_derivatives_equal": true,
+    "endpoint_phase_inequalities": true,
+    "outer_t_bracket": [
+      "93272267066240905538577423361389732622106268130379/225179981368524800000000000000000000000000000000000",
+      "46636134561417541055585897243227261435488558869877/112589990684262400000000000000000000000000000000000"
+    ],
+    "per_cell_negative_F_t": true,
+    "per_cell_phase_and_tail_checks": true
+  },
+  "m7_transfer": {
+    "endpoint_signs": true,
+    "m7_payload_sha256": "75641df0f1a84d231e058302b89d8b5a603a4914a9ddd2b84601c1cf2b50f87f",
+    "noncancellation": true,
+    "phase_band": [
+      "164/5",
+      "329/10"
+    ],
+    "source_pole_free": true,
+    "strict_containment": true
+  },
+  "receipts": [
+    "m10-full-band-v1",
+    "m10-structural-v1"
+  ],
+  "reviewed_source_hashes": {
+    "proofs/M10_BETA_REVIEW.md": {
+      "proofs/M10_BETA_REAL.md": "51b59ecaea7fa22647d76471f8ecef9e8483581fdd3941a02d56b0fb22397f80",
+      "proofs/m10_beta_real.py": "8387dd9af2896cdeef4871f008a495d0507aca96c27b21399fac0960458d3231"
+    },
+    "proofs/M10_COMBINED_WEIGHT_REVIEW.md": {
+      "proofs/M10_POSITIVE_COMBINED_WEIGHT.md": "9801fb62426a4d88730c31a19febfdbb5c10f9e2edb7f904eaea54bdd2d66b2a",
+      "proofs/M5_DIRECTED_LOG.md": "fcf18e907607e185cb8dba7e4c25c58c8df3aa5088027429fc33d86677c9cf1f",
+      "proofs/M5_DIRECTED_REFINED.md": "08668a0ddbba107c2f56cc88e0d5f1b549c9ddec92490f4d35ba5f4e4005e38a",
+      "proofs/M6_DIRECTED_CONSTANT.md": "b45599ada46df5d992f81b142b5285ce062f02d04ae02234e76a21afab4caab3",
+      "results/m6-coefficient-v1/payload.json": "8b17975deacb8d46f6a4ef7a1a17bcbac5a6e9e973574b52ebf4056ba56d14a1"
+    },
+    "proofs/M10_DIRECTED_REVIEW.md": {
+      "proofs/M10_DIRECTED_MONOTONICITY.md": "2f7a47aa316b10fc119d3bb7d6b11b4005b7b2234a2321696eecf01f37c4cc61",
+      "proofs/m10_directed_monotone.py": "61419e5bdcd208c901166fb738f60aea9020e7b358c80aa65f3d3b1bee7bbb00",
+      "proofs/m10_structural_bounds.py": "5985b3f78179d50674c5497c7e425d44a42df1cfadc8470c6bb7308bf73df8e7"
+    },
+    "proofs/M10_FULL_BAND_FINAL_REVIEW.md": {
+      "experiments/m10_full_band_batch.py": "e3cd1a4b4a486358fcf61889e026d9f2de9f62463c6e8431c07ae300e7b47041",
+      "proofs/M10_FULL_BAND.md": "9cf6e1e014a66595765acda379db3752988af18e7e660eb2b9d893f2861fd923",
+      "proofs/m10_full_band.py": "8372d4cf50e291edc0700a49a9ad08ddbe4bf9e3a71d6efd77a9e4b10f140079"
+    },
+    "proofs/M10_FULL_BAND_REVIEW.md": {
+      "experiments/m10_full_band_batch.py": "e3cd1a4b4a486358fcf61889e026d9f2de9f62463c6e8431c07ae300e7b47041",
+      "proofs/m10_full_band.py": "8372d4cf50e291edc0700a49a9ad08ddbe4bf9e3a71d6efd77a9e4b10f140079"
+    },
+    "proofs/M10_REAL_PRODUCT_REVIEW.md": {
+      "proofs/M10_BARE_PHASE_DERIVATIVE.md": "04605690a985a1c65a682354eab86c08480c17c46be39f243c86a020a094a265",
+      "proofs/M10_REAL_PHASE_PRODUCT.md": "9cb89838da02d8cb4f03d40b8571716cc237cf121881f772555d68d5a161cfa8"
+    }
+  },
+  "scope": "exactly one simple noncancelled W pole on the N=32 phase band theta in [0.8,0.9]",
+  "status": "PASS: M10 N=32 full-band and structural receipts verified",
+  "structural": {
+    "component_hashes": {
+      "directed_monotonicity": "f0210db9efbf79dbf5bc4ce6d871520c1b93238fad0ec7cda69993e225294c88",
+      "real_beta_derivatives": "7a04339811087b634dbab95557810a3e6c933571d5af60163b8a60d0e7a32734",
+      "weight_and_product": "49db78a15baa982f91cf2ada380c302fd404a743ba445788932ef89bf62c1093"
+    },
+    "full_F_phase_sign": "NOT PROVED",
+    "full_index_coverage": "NOT PROVED",
+    "replay_matches_receipt": true,
+    "wrapper_sha256": "f8396447ace42f2674b35f2844fb0bd789bc557152ac8dda8fae3fc4da3bb7b8"
+  }
+}

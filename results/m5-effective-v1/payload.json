@@ -1,0 +1,106 @@
+{
+  "status": "pass",
+  "threshold_arithmetic": {
+    "checks": {
+      "F_error_below_sign_margins": true,
+      "critical_left_margin": true,
+      "critical_numerator_entire_bracket": true,
+      "critical_right_margin": true,
+      "directed_domain": true,
+      "directed_error_below_1e_100": true,
+      "directed_reciprocal_simplification": true,
+      "effective_moment_domain": true,
+      "log10_upper_bound": true,
+      "log2_lower_bound": true,
+      "moment_error_below_1e_100": true,
+      "moment_log_error": true,
+      "noncancellation": true,
+      "total_F_error_below_1e_90": true
+    },
+    "classification": "EXACT FINAL ARITHMETIC; analytic effective moment estimate requires separate proof review",
+    "critical_phase_bracket": [
+      "1739/2000",
+      "109/125"
+    ],
+    "first_index_expression": "2^(10^120)",
+    "log_N_lower_bound": "690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "log_moment_error_upper_bound": "-34499999999999999999999999999999999999999999999999999999999000000000000000000000000000000000000000000000000000000000000",
+    "scope": "Existence and noncancellation, not an effective uniqueness or simplicity threshold",
+    "status": "pass"
+  },
+  "weight_boxes": {
+    "bounds": {
+      "Q_over_e": {
+        "bounded_by_one_million": true,
+        "gradient_L1_upper": "2152713/2500000",
+        "value_abs_upper": "144669/1000000",
+        "value_box": [
+          "324520911/2500000000",
+          "144669/1000000"
+        ]
+      },
+      "V1": {
+        "bounded_by_one_million": true,
+        "gradient_L1_upper": "141466224964806250/626543366266467",
+        "value_abs_upper": "1250/117",
+        "value_box": [
+          "349375/49266",
+          "1250/117"
+        ]
+      },
+      "V2": {
+        "bounded_by_one_million": true,
+        "gradient_L1_upper": "7721196093257267500000/17116320294906214941",
+        "value_abs_upper": "250000/13689",
+        "value_box": [
+          "1454959375/190363824",
+          "250000/13689"
+        ]
+      },
+      "boundary_H_over_t2": {
+        "bounded_by_one_million": true,
+        "gradient_L1_upper": "12667434430588835349349002692585125/86734411979524415672325928564032",
+        "value_abs_upper": "46714318776025/10022105393664",
+        "value_box": [
+          "-46714318776025/10022105393664",
+          "-19268808525745265/17499745537751848"
+        ]
+      },
+      "boundary_P": {
+        "bounded_by_one_million": true,
+        "gradient_L1_upper": "12892092490563644720107/116425227600890271504",
+        "value_abs_upper": "2633141715/1396614464",
+        "value_box": [
+          "-2633141715/1396614464",
+          "16092282511/26975130630"
+        ]
+      }
+    },
+    "boxes": [
+      [
+        "2/5",
+        "83/200"
+      ],
+      [
+        "99/100",
+        "1"
+      ],
+      [
+        "2/5",
+        "1"
+      ],
+      [
+        "99/100",
+        "1"
+      ]
+    ],
+    "classification": "EXACT RATIONAL WEIGHT BOXES AND JACOBIANS",
+    "status": "pass",
+    "variable_order": [
+      "t",
+      "q",
+      "u",
+      "a=(1-exp(-e))/e"
+    ]
+  }
+}

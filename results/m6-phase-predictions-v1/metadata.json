@@ -1,0 +1,92 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.m6_phase_batch calibration m6-phase-predictions-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m6-phase-predictions-v1",
+  "git_commit": "7ed5055533f0faf10cc81e1b60d5dd5406973f41",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m5_phase_diagnostics.py": "d4ab6762b731f7e92db85286a777279215b600d0d51a2715a3ed7b4919992d29",
+    "experiments/m6_phase_batch.py": "d6abcf6e45eb4e0d997f69283b11a0b10372fed5b521c46dda0e94e9ce080f48",
+    "experiments/m6_phase_predictions.py": "6b7cc87fa0496b468a3036a392d0a292197e2b3bd88e873b5ce0f58844ea9900",
+    "proofs/M6_DIRECTED_CONSTANT.md": "b45599ada46df5d992f81b142b5285ce062f02d04ae02234e76a21afab4caab3",
+    "proofs/M6_RESUMMED_PHASE.md": "47d7ff8a5e90b82a593e262cee5ec426a237e037c5e59cab94f02ad65197b301",
+    "proofs/M6_SECOND_ORDER.md": "1d9641b561cf24e346ecc6996fe6f48e833d5694a97788c4d8de07f4d5c546c0",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "results/m5-critical-v1/payload.json": "f94823cf257ffd1c9cf6becea60c07cad100232b787e4253ba7d18681557fd8b",
+    "results/m5-phase-holdout-v1/payload.json": "bb72073186c9d53520f1ed97292e2f140db744b1afebc0d6e3f059940357a5fa",
+    "results/m5-phase-v1/payload.json": "23c4c0ac3fecb8ac8eed5dadaa921b77f27615cb293324023a82390c7ef15946",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "8dedba3e3506b4072d53b1eff6b42df898ead24cde114c1b98839cc3a1d6f84d"
+  },
+  "parameters": {
+    "mode": "calibration",
+    "parameters": {
+      "calibration_indices": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "critical_bins": 4096,
+      "critical_midpoint_rule": "midpoint of each 384-bit interval",
+      "diagnostic": {
+        "calibration_indices": [
+          32,
+          64,
+          128,
+          256
+        ],
+        "derivative_step": "1e-4",
+        "final_D_tail_tolerance": "1e-14",
+        "final_dps": 68,
+        "final_tail_scale": "12",
+        "locator_D_tail_tolerance": "1e-12",
+        "locator_dps": 52,
+        "locator_tail_scale": "9",
+        "max_seconds": 360.0,
+        "observed_holdout_index": 512,
+        "phases": [
+          "0.75",
+          "0.80",
+          "0.85",
+          "0.90"
+        ],
+        "refinement_steps": 8,
+        "validation_index": 1024
+      },
+      "models": [
+        "truncated_2nd",
+        "resummed"
+      ],
+      "observed_indices": [
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "prediction_dps": 68,
+      "prediction_indices": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024
+      ]
+    }
+  },
+  "peak_rss_kib_process": 21800,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.06801712699962081,
+  "seed": null,
+  "utc": "2026-09-12T13:21:46.810258+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

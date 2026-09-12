@@ -1,0 +1,45 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.m7_finite_batch m7-finite-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m7-finite-v1",
+  "git_commit": "fc445b368abd297d35b927ca348d2ceb8af72fcc",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m7_finite_batch.py": "7f9cf06705662a148bec49758422545d8ba980d8df9991a808ca64734810bced",
+    "proofs/M3_NON_DFINITE_CANDIDATE.md": "e184726e834116e8eaf9d83926e571f40f4f2883eda1114b05c231872ec0a627",
+    "proofs/M7_FINITE_TAIL.md": "89869ff06633e9a9daa17ca63f848d47fcf3ba5b5c18aee1ee48b151347e48d7",
+    "proofs/W_NON_DFINITE.md": "351372992c252773a291f78b38a3521e68be7d60113145ff05087509c217780a",
+    "proofs/m7_finite_poles.py": "3712829fbf510e558e9215c7219731b40678ca9525e36387bb1f9d528f912c26",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "results/m5-phase-holdout-v1/payload.json": "bb72073186c9d53520f1ed97292e2f140db744b1afebc0d6e3f059940357a5fa",
+    "results/m5-phase-v1/payload.json": "23c4c0ac3fecb8ac8eed5dadaa921b77f27615cb293324023a82390c7ef15946",
+    "results/m6-phase-holdout-v1/payload.json": "48c8be37147e9f0e3291d3b2fe336fae56bb615a66bb180be630b257832e4840",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "75641df0f1a84d231e058302b89d8b5a603a4914a9ddd2b84601c1cf2b50f87f"
+  },
+  "parameters": {
+    "bits": 384,
+    "indices": [
+      32,
+      64,
+      128,
+      256,
+      512,
+      1024
+    ],
+    "scope": "finite existence and noncancellation"
+  },
+  "peak_rss_kib_process": 18776,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 252.8442961480032,
+  "seed": null,
+  "utc": "2026-09-12T14:38:51.738487+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

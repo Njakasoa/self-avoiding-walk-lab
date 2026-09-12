@@ -1,0 +1,55 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.m5_phase_batch calibration m5-phase-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m5-phase-v1",
+  "git_commit": "8232d82e372860319b5562fef33a5982293ddbca",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m5_phase_batch.py": "9b5c06d4adeb7f938795995b866a0d9433a0b5821a78fadcad2b247d52a35fa8",
+    "experiments/m5_phase_diagnostics.py": "d4ab6762b731f7e92db85286a777279215b600d0d51a2715a3ed7b4919992d29",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "results/w-critical-v1/payload.json": "ab5cbc0caf0f24f5b32e877668e87cc2d4d75cd830c62123ad450711f0c7ed6c",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "23c4c0ac3fecb8ac8eed5dadaa921b77f27615cb293324023a82390c7ef15946"
+  },
+  "parameters": {
+    "diagnostic_defaults": {
+      "certificate_payload": "results/w-critical-v1/payload.json",
+      "derivative_step": "1e-4",
+      "final_D_tail_tolerance": "1e-14",
+      "final_dps": 68,
+      "final_tail_scale": "12",
+      "indices": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "locator_D_tail_tolerance": "1e-12",
+      "locator_dps": 52,
+      "locator_tail_scale": "9",
+      "max_seconds": 120.0,
+      "phases": [
+        "0.75",
+        "0.80",
+        "0.85",
+        "0.90"
+      ],
+      "refinement_steps": 8
+    },
+    "mode": "calibration"
+  },
+  "peak_rss_kib_process": 21884,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 84.35575364900433,
+  "seed": null,
+  "utc": "2026-09-12T12:17:57.183556+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

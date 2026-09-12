@@ -1,0 +1,50 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.m6_threshold_batch m6-threshold-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m6-threshold-v1",
+  "git_commit": "e7c18daed5f75b41c97a5ffc72505051d6d31761",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m6_threshold_batch.py": "557240a13b0f7196019653b4c5606c9c8b169f7e247d646717768b570ab92cfc",
+    "proofs/M5_DIRECTED_LOG.md": "fcf18e907607e185cb8dba7e4c25c58c8df3aa5088027429fc33d86677c9cf1f",
+    "proofs/M5_EFFECTIVE_GAMMA.md": "3b4464ca52bf73db69916d900d66f7c21a28a455a4bc6d5bef6a708570676f86",
+    "proofs/M5_EFFECTIVE_KERNEL.md": "8eed3eefc97ee2fbefc09aa51f3de161c30de23d6c520303503ef7f1f8faa090",
+    "proofs/M5_EFFECTIVE_WEIGHTS.md": "3e941af8ac231dfb1833645459dd44dbdd697fb3502ba064c5d0d6d283c4e716",
+    "proofs/M5_PHASE_DOMAIN.md": "e28526758615f3d3d2279dda542b381c9a5d69313f770c5c4a6e5c57863065bf",
+    "proofs/M6_DIRECTED_CONSTANT.md": "b45599ada46df5d992f81b142b5285ce062f02d04ae02234e76a21afab4caab3",
+    "proofs/M6_EFFECTIVE_PRODUCT.md": "a3b6b878102cfbe022aada6477c78c8641edc5d25b813ea7030f032fce96c522",
+    "proofs/M6_REAL_MOMENT_RATE.md": "901ca9d78df982140078ec079462d31fb5b9b6527592e08cd062d99ce5040af8",
+    "proofs/M6_REAL_RATE_DOMAIN.md": "fb08308744e8e273c7725da4d1f2fb862e7653ea8daf31ec425f56df6dea0588",
+    "proofs/M6_SHARP_KERNEL.md": "8717a3a191eb9f958f4b6a68d4066ae41bb8c13bc051985f3fe0791499158487",
+    "proofs/M6_THRESHOLD.md": "80420d55c9c281fa4d2410ced688f0d9b3e6f3061807506ffe3885df6802bf00",
+    "proofs/m3_critical_integrals.py": "da519b98367b64d29b18f50f13ecf42a2dae54550c6b3771fabbd92f8964cf16",
+    "proofs/m3_prudent_intervals.py": "a2230bdeedbefcd5550cc64f304dcdd4b887a5c60f77e4f7cac974ad71451ff1",
+    "proofs/m5_critical_pole.py": "2e5920d14c891bbf9e59370f0a86e7a6eea9cb23d70b4b22cd151979e7724752",
+    "proofs/m5_weight_boxes.py": "d3d4ef42411eb1ea336a7d62d0b45716a3b4181f2d0577c6580b20150a5f4e15",
+    "proofs/m6_second_coefficient.py": "2cb987601187cb6620a47428587e1b6549468ff5b2d6bc2076e6a5d4c561ce9e",
+    "proofs/m6_sharp_kernel_boxes.py": "705eac1b4ca87504094f3e1d705f0a3235f098382368ec4e75dad8a553d9ff77",
+    "proofs/m6_threshold.py": "3ee1d185a700456f3d2d74c2ec6488f075ee18dfc8fd6757cdf8d3cec8df07c6",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "results/m5-critical-v1/payload.json": "f94823cf257ffd1c9cf6becea60c07cad100232b787e4253ba7d18681557fd8b",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "8120d6b83beb3ddb0078113d5504060f96255c5c164d979355024aa8ac86b5ad"
+  },
+  "parameters": {
+    "B": "10^12",
+    "N0": "10^46",
+    "scope": "existence and noncancellation"
+  },
+  "peak_rss_kib_process": 18460,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.027654509998683352,
+  "seed": null,
+  "utc": "2026-09-12T13:25:58.684986+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

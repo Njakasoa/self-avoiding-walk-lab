@@ -1,0 +1,23 @@
+{
+  "compiled": [
+    "experiments/m6_coefficient_batch.py",
+    "experiments/m6_directed_batch.py",
+    "experiments/m6_directed_constant_check.py",
+    "experiments/m6_phase_batch.py",
+    "experiments/m6_phase_predictions.py",
+    "experiments/m6_threshold_batch.py",
+    "proofs/check_m6.py",
+    "proofs/m6_second_coefficient.py",
+    "proofs/m6_sharp_kernel_boxes.py",
+    "proofs/m6_threshold.py"
+  ],
+  "optimization_guards": {
+    "proofs.m6_second_coefficient": "PASS: rejected optimization before checks",
+    "proofs.m6_threshold": "PASS: rejected optimization before checks",
+    "proofs.check_m6": "PASS: rejected optimization before checks"
+  },
+  "regression": {
+    "passed": 54,
+    "seconds": 10.61
+  }
+}

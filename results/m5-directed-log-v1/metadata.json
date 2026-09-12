@@ -1,0 +1,43 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.m5_certificates directed-log m5-directed-log-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m5-directed-log-v1",
+  "git_commit": "106db6d44466ef82d57ecbc44e83a8c224b655f7",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m5_certificates.py": "4728f7ec6cbe090c8974b66b70d9b5bf0779f84b17572822f81a32fb75860504",
+    "experiments/m5_directed_log_check.py": "8f691353245f84dd4c89fb188f521c7228ed1dca4faceb645e2c906fbebb1375",
+    "proofs/M5_DIRECTED_LOG.md": "fcf18e907607e185cb8dba7e4c25c58c8df3aa5088027429fc33d86677c9cf1f",
+    "proofs/M5_MOMENT_RATE.md": "9d8bdc4d72b8decbf696778ed061c635f8a216ed4440eb73a89c3de56d8fa811",
+    "proofs/M5_PHASE_DOMAIN.md": "e28526758615f3d3d2279dda542b381c9a5d69313f770c5c4a6e5c57863065bf",
+    "proofs/W_NON_DFINITE.md": "351372992c252773a291f78b38a3521e68be7d60113145ff05087509c217780a",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "312124d4f8ab994c1ee1e557470273440f902b2f2498563c33c8f609796f68eb"
+  },
+  "parameters": {
+    "cutoff_factor": 40,
+    "dps": 80,
+    "epsilon_values": [
+      "0.1",
+      "0.05",
+      "0.02",
+      "0.01",
+      "0.005",
+      "0.002"
+    ]
+  },
+  "peak_rss_kib_process": 21728,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.9373786130017834,
+  "seed": null,
+  "utc": "2026-09-12T12:04:34.661549+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

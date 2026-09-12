@@ -1,0 +1,5 @@
+{
+  "classification": "NUMERICAL DIAGNOSTIC ONLY; analytic error proof is separate",
+  "status": "pass",
+  "stdout": "sigma = 0.4142135623730950488\nc = 3.4142135623730950488\nC0 = log(4)-psi(c) = 0.31188364382965655558\nintegral(g) - (log(4)+EulerGamma) = -1.0e-30\nepsilon       a_e                 tail       identity err       err/(e log(1/e))\n0.01 3.414201420206153 6.575851e-11 5.9740947e-59 0.0060983170966\n0.005 3.414210526758316 6.640424e-11 2.862587e-59 0.00295433877111\n0.002 3.414213076671458 6.6795011e-11 1.9042427e-58 0.00114458096174\n0.001 3.414213440947569 6.6925828e-11 1.7001278e-57 0.000561511469201\n0.0005 3.414213532016706 6.6991341e-11 1.727509e-57 0.000276349188185\ndiagnostic checks: hyperbolic identity, analytic positive-tail formula, and numerical residual <= 100 e log(1/e)\n"
+}

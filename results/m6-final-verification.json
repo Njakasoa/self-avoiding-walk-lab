@@ -1,0 +1,39 @@
+{
+  "heldout_comparisons": {
+    "resummed": {
+      "absolute_error": "0.000001831246689013070827695236892906591806787147",
+      "passed": true
+    },
+    "truncated_2nd": {
+      "absolute_error": "0.004969210235650224356945594996720868467738592728",
+      "passed": false
+    }
+  },
+  "legacy_sources_unchanged": {
+    "proofs/M3_NON_DFINITE_CANDIDATE.md": "e184726e834116e8eaf9d83926e571f40f4f2883eda1114b05c231872ec0a627",
+    "proofs/W_NON_DFINITE.md": "351372992c252773a291f78b38a3521e68be7d60113145ff05087509c217780a",
+    "publication/main.tex": "d020e1c1d58e08bc642e74d7da5a1f02df33eb42defcfd6053d1a7bf250fd0e0"
+  },
+  "receipts": [
+    "m6-coefficient-v1",
+    "m6-directed-v1",
+    "m6-phase-predictions-v1",
+    "m6-threshold-v1",
+    "m6-phase-holdout-v1"
+  ],
+  "reviewed_source_hashes": {
+    "experiments/m6_directed_constant_check.py": "c9e3f02bc426f5d25ab96049ca68b771edf995bc7c59dae0e6cd45fa92d1de77",
+    "proofs/M6_DIRECTED_CONSTANT.md": "b45599ada46df5d992f81b142b5285ce062f02d04ae02234e76a21afab4caab3",
+    "proofs/M6_EFFECTIVE_PRODUCT.md": "a3b6b878102cfbe022aada6477c78c8641edc5d25b813ea7030f032fce96c522",
+    "proofs/M6_REAL_MOMENT_RATE.md": "901ca9d78df982140078ec079462d31fb5b9b6527592e08cd062d99ce5040af8",
+    "proofs/M6_RESUMMED_PHASE.md": "47d7ff8a5e90b82a593e262cee5ec426a237e037c5e59cab94f02ad65197b301",
+    "proofs/M6_SECOND_ORDER.md": "1d9641b561cf24e346ecc6996fe6f48e833d5694a97788c4d8de07f4d5c546c0",
+    "proofs/M6_SHARP_KERNEL.md": "8717a3a191eb9f958f4b6a68d4066ae41bb8c13bc051985f3fe0791499158487",
+    "proofs/M6_THRESHOLD.md": "80420d55c9c281fa4d2410ced688f0d9b3e6f3061807506ffe3885df6802bf00",
+    "proofs/m6_second_coefficient.py": "2cb987601187cb6620a47428587e1b6549468ff5b2d6bc2076e6a5d4c561ce9e",
+    "proofs/m6_sharp_kernel_boxes.py": "705eac1b4ca87504094f3e1d705f0a3235f098382368ec4e75dad8a553d9ff77",
+    "proofs/m6_threshold.py": "3ee1d185a700456f3d2d74c2ec6488f075ee18dfc8fd6757cdf8d3cec8df07c6"
+  },
+  "scope": "internal research draft; analytic review separate; threshold existence only",
+  "status": "PASS: provenance and integration arithmetic"
+}

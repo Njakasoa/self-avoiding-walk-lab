@@ -1,0 +1,50 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.m10_structural_batch m10-structural-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m10-structural-v1",
+  "git_commit": "ce376e85793887f770b35fc80e180e35f4b2ff18",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m10_structural_batch.py": "f8396447ace42f2674b35f2844fb0bd789bc557152ac8dda8fae3fc4da3bb7b8",
+    "proofs/M10_BARE_PHASE_DERIVATIVE.md": "04605690a985a1c65a682354eab86c08480c17c46be39f243c86a020a094a265",
+    "proofs/M10_BETA_REAL.md": "51b59ecaea7fa22647d76471f8ecef9e8483581fdd3941a02d56b0fb22397f80",
+    "proofs/M10_DIRECTED_MONOTONICITY.md": "2f7a47aa316b10fc119d3bb7d6b11b4005b7b2234a2321696eecf01f37c4cc61",
+    "proofs/M10_POSITIVE_COMBINED_WEIGHT.md": "9801fb62426a4d88730c31a19febfdbb5c10f9e2edb7f904eaea54bdd2d66b2a",
+    "proofs/M10_REAL_PHASE_PRODUCT.md": "9cb89838da02d8cb4f03d40b8571716cc237cf121881f772555d68d5a161cfa8",
+    "proofs/M5_DIRECTED_LOG.md": "fcf18e907607e185cb8dba7e4c25c58c8df3aa5088027429fc33d86677c9cf1f",
+    "proofs/M5_DIRECTED_REFINED.md": "08668a0ddbba107c2f56cc88e0d5f1b549c9ddec92490f4d35ba5f4e4005e38a",
+    "proofs/M6_DIRECTED_CONSTANT.md": "b45599ada46df5d992f81b142b5285ce062f02d04ae02234e76a21afab4caab3",
+    "proofs/M6_EFFECTIVE_PRODUCT.md": "a3b6b878102cfbe022aada6477c78c8641edc5d25b813ea7030f032fce96c522",
+    "proofs/M6_SHARP_KERNEL.md": "8717a3a191eb9f958f4b6a68d4066ae41bb8c13bc051985f3fe0791499158487",
+    "proofs/M7_COMPLEX_KERNEL_SECTOR.md": "0c1b006aa6d202bc89345b9d0ba194ce8502c504497061007acdca548d59bfe3",
+    "proofs/check_m3.py": "fecc450372744eb07ef117a9c044bda0b716f73c27663163f02763117a38ad13",
+    "proofs/m10_beta_real.py": "8387dd9af2896cdeef4871f008a495d0507aca96c27b21399fac0960458d3231",
+    "proofs/m10_directed_monotone.py": "61419e5bdcd208c901166fb738f60aea9020e7b358c80aa65f3d3b1bee7bbb00",
+    "proofs/m10_structural_bounds.py": "5985b3f78179d50674c5497c7e425d44a42df1cfadc8470c6bb7308bf73df8e7",
+    "proofs/m5_phase_domain.py": "76b0b18fcb282e9d303754293258a1dedc7069514032814d9a833eba55310c97",
+    "proofs/m7_finite_poles.py": "3712829fbf510e558e9215c7219731b40678ca9525e36387bb1f9d528f912c26",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "results/m6-coefficient-v1/metadata.json": "23e9282fc6fe4fc6ba9f2c897af6d4f990cd9f8ce1a8b8f719cfe36a3a264269",
+    "results/m6-coefficient-v1/payload.json": "8b17975deacb8d46f6a4ef7a1a17bcbac5a6e9e973574b52ebf4056ba56d14a1",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "57f731f971f887b4853464ce604cbcf2da24bc0f5217162980d30d15fb43ef81"
+  },
+  "parameters": {
+    "N_min": 32,
+    "bare_prefix": "n<=60N",
+    "scope": "scalar and positive-weight components only"
+  },
+  "peak_rss_kib_process": 54492,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.7814437130000442,
+  "seed": null,
+  "utc": "2026-09-12T16:23:15.956467+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

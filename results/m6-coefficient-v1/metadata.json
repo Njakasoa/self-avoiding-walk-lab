@@ -1,0 +1,36 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.m6_coefficient_batch m6-coefficient-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m6-coefficient-v1",
+  "git_commit": "73f16033c8bdb4f330ce2e33b2a2fd8720b5b744",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m6_coefficient_batch.py": "3662433a38471f332849b8e64cf9e5412adb312101e7bffac29fdc31b2f9c1a5",
+    "proofs/M6_SECOND_ORDER.md": "1d9641b561cf24e346ecc6996fe6f48e833d5694a97788c4d8de07f4d5c546c0",
+    "proofs/m3_critical_integrals.py": "da519b98367b64d29b18f50f13ecf42a2dae54550c6b3771fabbd92f8964cf16",
+    "proofs/m3_prudent_intervals.py": "a2230bdeedbefcd5550cc64f304dcdd4b887a5c60f77e4f7cac974ad71451ff1",
+    "proofs/m5_critical_pole.py": "2e5920d14c891bbf9e59370f0a86e7a6eea9cb23d70b4b22cd151979e7724752",
+    "proofs/m6_second_coefficient.py": "2cb987601187cb6620a47428587e1b6549468ff5b2d6bc2076e6a5d4c561ce9e",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "results/m5-critical-v1/payload.json": "f94823cf257ffd1c9cf6becea60c07cad100232b787e4253ba7d18681557fd8b",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "8b17975deacb8d46f6a4ef7a1a17bcbac5a6e9e973574b52ebf4056ba56d14a1"
+  },
+  "parameters": {
+    "critical_bins": 4096,
+    "digamma_shift": 64
+  },
+  "peak_rss_kib_process": 18340,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.016158758000528906,
+  "seed": null,
+  "utc": "2026-09-12T12:48:54.317940+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

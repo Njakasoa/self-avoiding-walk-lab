@@ -1,0 +1,379 @@
+{
+  "all_index_existence": "NOT PROVED",
+  "boundary": {
+    "B_theta_upper_allowance": "6/(5*N^2)",
+    "claims": {
+      "B1_plus_one_positive": true,
+      "B_e_lower_gt_minus_7": true,
+      "B_e_negative": true,
+      "B_lower_gt_minus_2": true,
+      "B_upper_lt_minus_7_over_5": true,
+      "phase_allowance": true
+    },
+    "full_F_phase_sign": "NOT PROVED",
+    "jets": {
+      "B": {
+        "derivative": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "-260903096904956793051618905160704230097202909763960429879942902819854024705810573401042326643337994997130247280537722",
+          "upper_numerator": "-149097921931433173260419907913568319526100030895059534888881938062694793601411833528339670797910334652401923220994929"
+        },
+        "value": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "-78027911184592851660385867712194239530015253649588438344020158118893597118937665827034076747203824447583608730462663",
+          "upper_numerator": "-55273025948495351204128667540187961133620011631002393574486457313397256908635552094130758625115756764420037941805773"
+        }
+      },
+      "B1": {
+        "derivative": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "316776267163663346587129468150146623641195104399782715968446834285371423739009937141139695835502516003912549127398777",
+          "upper_numerator": "353396517679138877433539487130721785856797633412956610854983438047689442072572682401728532609627292869645669855719272"
+        },
+        "value": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "-26294396392655877781974175614926017367150584867477248257397031188929988193868883866106454507712432546374379443846708",
+          "upper_numerator": "-17948525062348737929748891964142113816390762089655521871413339305498842720570553136331157549890041384830082116653793"
+        }
+      },
+      "delta_fixed": {
+        "derivative": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "0",
+          "upper_numerator": "0"
+        },
+        "value": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "0",
+          "upper_numerator": "2758140433747613544859532807010052966355581748932581266756380538297200524004804742798998637841944094856463959321478"
+        }
+      },
+      "q": {
+        "derivative": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "-19701003098197239606139520050071806902539869635232723333974146702122860885748605305707133127442457820403313995153408",
+          "upper_numerator": "-19646278089591136162789132494377162994477258886245965769157551850172519605510414735413502202088450993124415900722426"
+        },
+        "value": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "39292556179182272325578264988754325988954517772491931538315103700345039211020829470827004404176901986248831801444852",
+          "upper_numerator": "39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816"
+        }
+      },
+      "t": {
+        "derivative": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "-31271433489201967628792888968367947464348999421004322752339915400195017278966040167789100202289615587941768246276",
+          "upper_numerator": "0"
+        },
+        "value": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "16320693337342527484594210655474752506410910240861171684764750089727209973614352324635948106498034320878402747523291",
+          "upper_numerator": "16320845351255322216381295065351682072822195270719468233555907297649294254948347298442319303512906562065288575563379"
+        }
+      },
+      "t_squared_B2": {
+        "derivative": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "101405239103377290759623665279721121086319107643546443794617062073402726357630198515843106100164119618301953319069928",
+          "upper_numerator": "111611367350735562780101901128514007676759353597302353022649584138456995826579605658405262352792810243520944288126286"
+        },
+        "value": {
+          "denominator_power_of_two": 384,
+          "lower_numerator": "-21062851916866469024797839982624981146414936487396894947381355079081594161637991494366956515838394219219820379857868",
+          "upper_numerator": "-18895792621912971301099183643888610756444098263207419503659253457614995732665148306627825399589318306953651539188730"
+        }
+      }
+    },
+    "scope": "boundary component only; phase transfer and directed sign separate",
+    "status": "pass"
+  },
+  "combination": {
+    "bounds": {
+      "boundary_upper": "3/2560",
+      "full_derivative_upper": "-3141/64000",
+      "middle_upper": "-9/50",
+      "pre_high_upper": "3193/32500",
+      "pre_low_upper": "103/800",
+      "tail_abs_upper": "1/1000"
+    },
+    "checks": {
+      "boundary_upper": true,
+      "integer_case_split_no_gap": true,
+      "pre_high_below_low": true,
+      "pre_low_upper": true,
+      "total_upper": true,
+      "uniform_negative_margin": true
+    },
+    "scope": {
+      "N": "integer N>=32",
+      "all_index_existence": "NOT PROVED",
+      "analytic_conclusion": "F_theta<-1/25; at most one zero per full band",
+      "arithmetic_only": true,
+      "new_scan": "NONE",
+      "noncancellation": "inherited M12: every zero has 1+P<-2",
+      "theta": "[4/5,9/10]"
+    },
+    "status": "pass"
+  },
+  "domain": {
+    "N": "integer N>=32",
+    "phase_inverse": "physical real phase e_N(theta)>0",
+    "theta": "[4/5,9/10]"
+  },
+  "existence_or_uniqueness": "at most one zero per full band; every zero is simple and yields a noncancelled W pole; all-index existence NOT PROVED",
+  "full_F_phase_sign": "F_theta<-3141/64000<-1/25",
+  "mass": {
+    "claims": {
+      "bare_N_endpoint": true,
+      "denominator_positive": true,
+      "directed_upper": true,
+      "mass_general": true,
+      "mass_low_indices": true,
+      "positive_lower_envelope_numerator": true,
+      "reference_above_N64_band": true,
+      "reference_phase_domain": true,
+      "weight_general": true,
+      "weight_low_indices": true
+    },
+    "directed_tail": {
+      "denominator_power_of_two": 384,
+      "lower_numerator": "15020042637387033519332724044427667731476002864923928056771667642697172010614536792798",
+      "upper_numerator": "15020042637387033519332724044427667731476002864923928056771667642697172010614537468631"
+    },
+    "directed_terms": 74752,
+    "directed_value": {
+      "denominator_power_of_two": 384,
+      "lower_numerator": "618534562900315370978527151118238846825752017238216520713191188504791302930378427400955242383206757965145344255704364",
+      "upper_numerator": "618534562900315370978527151118253866868389404271735853437235616172522778933243351329012014050849455137155965611501948"
+    },
+    "mass_upper_general": "3651716165278632471/1185755220092887048",
+    "mass_upper_low_indices": "65736008313894493353/33201146162600837344",
+    "phase": {
+      "a": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "3059081179049955311574020572102028381474469893054660765561758544051415848685380393385725149511910796629655981181136441",
+        "upper_numerator": "3059081179049955311574020572102028381474469893054660765561758544051415848685380393385725149511910796629655981846948168"
+      },
+      "b": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "3031219734078196680642282306913485620854403518108357562421363522361787634500202585696686036854553251563121266925510446",
+        "upper_numerator": "3031219734078196680642282306913485620854403518108357562421363522361787634500202585696686036854553251563121267597171446"
+      },
+      "epsilon": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "80730598318182808965514402498931154532674528099339341925673697824961252912893382043353826455945290781691109036280",
+        "upper_numerator": "80730598318182808965514402498931154532674528099339341925673697824961252912893382043353826455945290781691109053551"
+      },
+      "q": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "39361661566247942064589959822799614818996662083167340088101988606889781324111511830290353095334027548040723762021285",
+        "upper_numerator": "39361661566247942064589959822799614818996662083167340088101988606889781324111511830290353095334027548040723762029811"
+      },
+      "s_g": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "6267738060281647954479912262085252389716668566493646054867937755846522067979714574397865187758297035163613737315375",
+        "upper_numerator": "6267738060281647954479912262085252389716668566493646054867937755846522067979714574397865187758297035163613737338673"
+      },
+      "s_h": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "6210652867427051072069363718141453868217590904235688735651469784832551407916928659534504832695289869449662099652627",
+        "upper_numerator": "6210652867427051072069363718141453868217590904235688735651469784832551407916928659534504832695289869449662099700122"
+      },
+      "v_g": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "33607363246866598119416423307891989451909286400424240693897477814288442918286110117505641073494111037892248613779132",
+        "upper_numerator": "33607363246866598119416423307891989451909286400424240693897477814288442918286110117505641073494111037892248613798832"
+      },
+      "v_h": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "33656088512592708388283239728372383537302970794572246454060397691491317728786246700294083838000073215200833844836383",
+        "upper_numerator": "33656088512592708388283239728372383537302970794572246454060397691491317728786246700294083838000073215200833844876781"
+      }
+    },
+    "scope": "S_pre<3.1 forN>=32; S_pre<2 for32<=N<=64; derivative not asserted",
+    "status": "pass",
+    "t_reference": "4142133/10000000",
+    "weight_upper_general": "123672049200000/20966296053167",
+    "weight_upper_low_indices": "1680720836400000/356427032903839"
+  },
+  "middle": {
+    "claims": {
+      "bare_power": true,
+      "combined_weight": true,
+      "exp_bound": true,
+      "factor_derivative": true,
+      "kernel_lower": true,
+      "log_R_coefficient": true,
+      "mass_lower": true,
+      "middle_margin": true,
+      "negative_submargin": true,
+      "positive_gap": true,
+      "prefactor": true,
+      "smooth_phase": true,
+      "term_count": true
+    },
+    "combined_weight_lower": "133760117134529553250000/87700916147137740963971",
+    "exponential_upper": "126224433513872291720045804886591878511953743/33092661168150937600000000000000000000000000",
+    "kernel_lower": {
+      "denominator_power_of_two": 384,
+      "lower_numerator": "24958081451327107544218596881612296709239138897807819429784991165691994165441141674541552357809324662573825265004704",
+      "upper_numerator": "24958081451327107544218596881612296709239138897807819429784991165691994165441141674541552357809324662573825265004722"
+    },
+    "middle_phase_upper_allowance": "-3/56",
+    "scope": "middle sum only; complete F derivative remains open",
+    "status": "pass",
+    "subwindow_log_phase_upper_allowance": "-15/4",
+    "subwindow_mass_lower": "7533/526400"
+  },
+  "middle_strengthened": {
+    "claims": {
+      "bare_mass_coefficient": true,
+      "constant_remainder_positive": true,
+      "middle_phase_margin": true,
+      "subwindow_mass": true
+    },
+    "coefficient_tenth_power": "76709461212158203125/27489606267192117248",
+    "middle_phase_upper_allowance": "-9/50",
+    "scope": "arithmetic only; power-sum lower bound and inherited analytic lemmas separate",
+    "status": "pass",
+    "subwindow_mass_lower": "4059/82250"
+  },
+  "new_scan": "NONE",
+  "pre_phase": {
+    "claims": {
+      "a0_phase_decay_gt_0.97": true,
+      "anchor_mesh_lt_1.48": true,
+      "combined_gap_gt_1_over_5": true,
+      "pi_upper_lt_0.824": true,
+      "pre_upper_lt_2.06": true,
+      "r_upper_eq_17_over_50": true,
+      "ru_max_lt_1511_over_1000": true,
+      "smooth_upper_lt_1.164": true,
+      "sqrt_17_over_300_lt_239_over_1000": true,
+      "u_theta_scaled_lt_244_over_1000": true,
+      "weight_u_log_upper_lt_6": true,
+      "weight_upper_le_0.895": true
+    },
+    "decimals": {
+      "a0_phase_decay_lower": 0.9763526648773007,
+      "anchor_mesh": 1.479667063020214,
+      "c_r": 4.829667063020214,
+      "combined_gap_lower": 0.20769100804946955,
+      "pi_upper": 0.8236444007134364,
+      "pre_upper": 2.0586444007134364,
+      "ru_max": 1.5105522193804173,
+      "smooth_upper": 1.1636444007134363,
+      "u_theta_scaled": 0.24376190476190476,
+      "vu_max": 0.7073587160662456,
+      "weight_u_log_upper": 5.8929180223446425,
+      "weight_upper": 0.895
+    },
+    "fractions": {
+      "a0_phase_decay_lower": "10185311/10432000",
+      "anchor_mesh": "6222/4205",
+      "c_r": "16247/3364",
+      "combined_gap_lower": "129736938185260833/624663240858068500",
+      "pi_upper": "692684941/841000000",
+      "pre_upper": "1731319941/841000000",
+      "r_upper": "17/50",
+      "ru_max": "25817092915740000000/17091162148852682641",
+      "smooth_upper": "978624941/841000000",
+      "sqrt_gap": "1363/3000000",
+      "u_theta_scaled": "5119/21000",
+      "vu_max": "4143/5857",
+      "weight_u_log_upper": "100716817449788552811/17091162148852682641",
+      "weight_upper": "179/200"
+    },
+    "kind": "m13_pre_phase_exact_arithmetic",
+    "scope": {
+      "N": "N>=32",
+      "inherited_kernel_lower": "u_n >= u_g > 7/10, proved analytically in the note and M11; not an arithmetic claim",
+      "input": "reviewed M10/M11 real lemmas; no point scan",
+      "pre_indices": "0<=n<=N",
+      "theta": "[4/5,9/10]"
+    },
+    "status": "pass"
+  },
+  "scope": "uniform real phase derivative and full-band at-most-one theorem for integer N>=32; no all-index existence claim",
+  "status": "pass",
+  "tail": {
+    "analytic_hypotheses": [
+      "M5 real phase inverse: .15<s_g<.17 and |e_theta|<e/N",
+      "M10 beta strip: 7/10<beta<18/25 and |beta_theta|<.008/N^3",
+      "M6/M11 real secant product: 0<R_e and Pi_{e,n}<=1",
+      "M6 real ratio: 0<r<=exp(-e)",
+      "M11 absolute per-factor bound: |d_e log R_e(je)|<7.071+.18 je",
+      "M11 absolute weight ledger: |d_theta log(A0 L_W(u_n))|<14/N",
+      "M10 combined-weight positivity and post-tail source-pole-free Gamma form"
+    ],
+    "checks": {
+      "C_tail_lower_positive": true,
+      "J_endpoint_lt_5_over_6": true,
+      "LW_tail_lt_2": true,
+      "R_tail_lt_6_over_5": true,
+      "T_tail_lt_151_over_1000": true,
+      "V1_tail_lt_9": true,
+      "absolute_weight_ledger_lt_14": true,
+      "bare_S_high_theta_lt_27": true,
+      "bare_S_low_theta_lt_27": true,
+      "bare_S_uniform_lt_27": true,
+      "beta_H_expected_lt_1_over_7000": true,
+      "derivative_average_lt_119_over_5": true,
+      "eN_lower_at_N32": true,
+      "e_upper_for_N32": true,
+      "exp_87_lower_gt_5000": true,
+      "exp_87_lower_gt_final_threshold": true,
+      "factor_constant_decomposition": true,
+      "factor_slope_eq_0_18": true,
+      "final_coefficient_eq_17969_over_3000": true,
+      "final_exp_margin": true,
+      "fractional_power_56": true,
+      "gamma_base_ratio_lt_1_over_56": true,
+      "gamma_beta_over_y_lt_1_over_2000": true,
+      "one_over_e_lt_7N": true,
+      "partial_h_log_L_abs_lt_50": true,
+      "phase_ratio_monotone_from_N32": true,
+      "sin_2pi_over_25_gt_31_over_125": true,
+      "sin_pi_over_5_lt_59_over_100": true,
+      "sine_multiplier_lt_12_over_5": true,
+      "sqrt5_lower_squared_lt_5": true,
+      "tail_derivative_lt_1e_minus_3": true,
+      "tail_phase_lower": true,
+      "tail_phase_upper": true,
+      "u_tail_le_829_over_2000": true
+    },
+    "claims": {
+      "absolute_tail_derivative_lt_1e_minus_3": true,
+      "existence_or_uniqueness": "NOT PROVED",
+      "full_F_phase_sign": "NOT PROVED",
+      "new_index_scan": "NONE"
+    },
+    "classification": "EXACT FRACTION M13 POST-60N TAIL LEDGER",
+    "fraction_bounds": {
+      "J_upper": "5/6",
+      "LW_tail_upper": "406500195728900866422063987000000/208007454273235054311924316027387",
+      "R_tail_upper": "24095540354169485690000/20534058562457113078633",
+      "S_high_theta_upper": "3224515/131274",
+      "S_low_theta_upper": "9162205/347208",
+      "T_tail_upper": "6003/40000",
+      "V1_tail_upper": "158053244670000000000/17789551909268687057",
+      "absolute_weight_ledger_upper": "7347623/567000",
+      "beta_H_expected_upper": "2183/16384000",
+      "beta_S_upper": "486/25",
+      "derivative_average_upper": "663317/28000",
+      "eN_lower": "29/200",
+      "eN_upper": "17/100",
+      "expected_x2_upper": "146",
+      "expected_x_upper": "12",
+      "partial_h_log_L_abs_upper": "4449633718498900/101138657444027",
+      "sine_multiplier_upper": "295/124",
+      "tail_derivative_upper": "1348812365824000000000000000000/1349525612617437793687516180938219",
+      "u_tail_upper": "829/2000",
+      "x_start_lower": "87/10",
+      "x_start_upper": "1837/180"
+    },
+    "scope": "real N>=32, theta in [4/5,9/10], integer n>60N",
+    "status": "pass"
+  }
+}

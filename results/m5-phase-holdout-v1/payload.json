@@ -1,0 +1,137 @@
+{
+  "calibration_reference": {
+    "prediction_source": {
+      "N": 512,
+      "N2_sigma_minus_t": "0.00156391457446750644059618967732099362",
+      "theta_N": "0.823599632081801350256640938686240904",
+      "theta_limit_minus_theta_times_log_N": "0.294290596153578411672489024754458472",
+      "warning": "Prediction is fixed using N<=256 only; N=512 is not included in either fit."
+    },
+    "theta_limit_midpoint": "0.870774252487470708465712786407591153"
+  },
+  "classification": "EXPLORATORY HELD-OUT VALIDATION DIAGNOSTIC ONLY",
+  "comparisons": {
+    "N2_sigma_minus_t": {
+      "absolute_error": "0.00000032900989148767772736564250527044",
+      "actual": "0.00156424358435899411832355531982626406",
+      "passed": true,
+      "predicted": "0.00156391457446750644059618967732099362",
+      "tolerance": "0.00000117978932961699770581630941383741565"
+    },
+    "theta_limit_minus_theta_times_log_N": {
+      "absolute_error": "0.00272463664035101411528306210351265735",
+      "actual": "0.297015232793929425787772086857971129",
+      "passed": true,
+      "predicted": "0.294290596153578411672489024754458472",
+      "tolerance": "0.00509436118048629935816942408580349495"
+    }
+  },
+  "passed": true,
+  "protocol": {
+    "calibration_payload": "results/m5-phase-v1/payload.json",
+    "calibration_payload_sha256": "23c4c0ac3fecb8ac8eed5dadaa921b77f27615cb293324023a82390c7ef15946",
+    "schema_version": 1
+  },
+  "row": {
+    "D_I_at_theta_N": "0.952974652296685114942458670349215102",
+    "D_tail_bound_at_theta_N": "9.99853248214931020342553209170336955e-15",
+    "D_terms_at_theta_N": 263215,
+    "F_at_theta_N": "-2.32115366269843486760905139743470837e-21",
+    "F_theta_numeric": "-11.663383232804226289680487754174388",
+    "F_theta_step": "0.0001",
+    "H_at_theta_N": "-2.00971405196690295860637924183925616",
+    "N2_sigma_minus_t_N": "0.00156424358435899411832355531982626406",
+    "P_plus_one_at_theta_N": "-5.94091728175466388056795339275025491",
+    "final_parameters": {
+      "D_tail_tolerance": "1.0e-14",
+      "dps": 68,
+      "tail_scale": "12.0"
+    },
+    "index": 512,
+    "last_prudent_term_at_theta_N": "3.67965456471587936125099506552966181e-22",
+    "locator_history": [
+      {
+        "F": "-0.0573033794504204720970000155553403623",
+        "iteration": "0",
+        "theta": "0.828282602976177893590359903302535411"
+      },
+      {
+        "F": "0.0131372001901709676051686642071240846",
+        "iteration": "1",
+        "theta": "0.822046862432402092642547680506837923"
+      },
+      {
+        "F": "-0.000547460306776645982085945528968895952",
+        "iteration": "2",
+        "theta": "0.823209830884330357318045222771927846"
+      },
+      {
+        "F": "-0.00000503316502286211343041013984509635409",
+        "iteration": "3",
+        "theta": "0.823163305867096190553349964910653236"
+      },
+      {
+        "F": "0.00000000194535352732323710613828672118173342",
+        "iteration": "4",
+        "theta": "0.823162874162870118920433750831608436"
+      },
+      {
+        "F": "-6.91010683456256630824263772139598647e-15",
+        "iteration": "5",
+        "theta": "0.823162874329662359044276521341712803"
+      },
+      {
+        "F": "-9.48695599544734089876094533307994793e-24",
+        "iteration": "6",
+        "theta": "0.823162874329661766582244161748962068"
+      },
+      {
+        "F": "-3.3925941969338871706887729614356974e-37",
+        "iteration": "7",
+        "theta": "0.8231628743296617665822433483518074"
+      }
+    ],
+    "locator_parameters": {
+      "D_tail_tolerance": "1.0e-12",
+      "dps": 52,
+      "refinement_steps": 8,
+      "tail_scale": "9.0"
+    },
+    "prudent_terms_at_theta_N": 38837,
+    "scan": [
+      {
+        "F": "2.24498701659814443873654484775694316",
+        "F_sign": "positive",
+        "theta": "0.75"
+      },
+      {
+        "F": "0.334529457531819048638688063901296517",
+        "F_sign": "positive",
+        "theta": "0.8"
+      },
+      {
+        "F": "-0.256875544712120992049327215617031375",
+        "F_sign": "negative",
+        "theta": "0.85"
+      },
+      {
+        "F": "-0.555609003506613838581576076403518643",
+        "F_sign": "negative",
+        "theta": "0.9"
+      }
+    ],
+    "sigma_minus_t_N": "0.00000000596711572402570388154432418756967188",
+    "sign_changing_brackets": [
+      [
+        "0.8",
+        "0.85"
+      ]
+    ],
+    "t_N": "0.414213556405979324775984842665373891",
+    "theta_N": "0.82316287432966148645722838345844077",
+    "theta_N_locator_dps": 52
+  },
+  "status": "pass",
+  "validation_index": 512,
+  "warning": "A failed tolerance comparison is retained as evidence; this payload does not refit predictions or establish an asymptotic theorem."
+}

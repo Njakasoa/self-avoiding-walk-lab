@@ -1,0 +1,46 @@
+{
+  "N_unique": "10^120",
+  "finite_indices": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "full_finite_producer_replayed": false,
+  "independent_evidence_hashes": {
+    "m7-complex-boxes-final.json": "f4561717052450e10f283c18b37b6e6f410c1b1b8b21f2f6754edf9bf3eb203d",
+    "m7-finite-six-exploratory.json": "75641df0f1a84d231e058302b89d8b5a603a4914a9ddd2b84601c1cf2b50f87f",
+    "m7-independent-N32.json": "e7aecafc0fc020fd09c5147779b50cd1deef1861072f38ffe9d8aa7e4cf95cd7",
+    "m7-original-N32.json": "989bfc4056e84d17f0807da04215f874ec90278919d43b6578ce1ed407f62716",
+    "m7-review-N32.json": "37c8bb91d60df19fd128e4e6f8d9343aca60a89bc694b8081f9f755a07074125",
+    "m7-review-complex-boxes.json": "b41c1521c8a1c1a539d163cc8d9ca7de565d2f99b47ff7bfd0bb3f1e4f2ff198",
+    "m7-review-uniqueness.json": "abe372241ae59cc56e5c029357545e305264d847867ab7d9e0d18f9221a0a1c0",
+    "m7_review_arithmetic.py": "7bcfe12e9524da1230cb8852b88900e3754a87659c89a0890c02b8b7732d0d92"
+  },
+  "legacy_sources_unchanged": {
+    "proofs/M3_NON_DFINITE_CANDIDATE.md": "e184726e834116e8eaf9d83926e571f40f4f2883eda1114b05c231872ec0a627",
+    "proofs/M6_SHARP_KERNEL.md": "8717a3a191eb9f958f4b6a68d4066ae41bb8c13bc051985f3fe0791499158487",
+    "proofs/W_NON_DFINITE.md": "351372992c252773a291f78b38a3521e68be7d60113145ff05087509c217780a",
+    "publication/main.tex": "d020e1c1d58e08bc642e74d7da5a1f02df33eb42defcfd6053d1a7bf250fd0e0"
+  },
+  "receipts": [
+    "m7-finite-v1",
+    "m7-effective-v1"
+  ],
+  "reviewed_source_hashes": {
+    "proofs/M7_COMPLEX_KERNEL_SECTOR.md": "0c1b006aa6d202bc89345b9d0ba194ce8502c504497061007acdca548d59bfe3",
+    "proofs/M7_COMPLEX_PRODUCT_DOMINATION.md": "c366bb558d128ecdeb8f43de5c1c261df1d1807f3559c6a5d50a76e1b796864c",
+    "proofs/M7_COMPLEX_SCALARS.md": "53fa59586ba44673d5904190f4ee3fc556b826677c6053f6ddc08e5a82060c38",
+    "proofs/M7_EFFECTIVE_DERIVATIVE.md": "e79045816d8ec87313584ba8bc960ff09833e299071013c9cf84fae1903df7d1",
+    "proofs/M7_FINITE_TAIL.md": "89869ff06633e9a9daa17ca63f848d47fcf3ba5b5c18aee1ee48b151347e48d7",
+    "proofs/M7_REAL_TO_DERIVATIVE.md": "7e34ef6f8aeaf78cccce82a1aa6aae059ef09e676834de066649506ae6c685f5",
+    "proofs/M7_UNIQUENESS_TRANSFER.md": "641806191be795952a15c2062f5e7a6e5f836f14a087768cb35f9e92bd1c24e0",
+    "proofs/m7_complex_boxes.py": "aba67065b2b63a741d032f6a71cabbafdcee52f38aefc7a3e69929da93ea2cfb",
+    "proofs/m7_finite_poles.py": "3712829fbf510e558e9215c7219731b40678ca9525e36387bb1f9d528f912c26",
+    "proofs/m7_uniqueness_transfer.py": "94701dd179348f267366d8f90efd014976d05d3aa2c45e9d6e428f12d11ab73b"
+  },
+  "scope": "internal draft; finite existence only; effective uniqueness above threshold; intermediate bands remain open",
+  "status": "PASS: provenance and exact integration arithmetic"
+}

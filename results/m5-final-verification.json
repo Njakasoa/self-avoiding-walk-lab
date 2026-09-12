@@ -1,0 +1,66 @@
+{
+  "canonical_receipts_verified": [
+    "m5-critical-v1",
+    "m5-phase-domain-v1",
+    "m5-directed-log-v1",
+    "m5-phase-v1",
+    "m5-phase-holdout-v1",
+    "m5-effective-v1"
+  ],
+  "effective_checkers_optimized_mode": "normal and -O stdout identical; no assertion-dependent interval code used",
+  "independent_effective_stdout_comparison": {
+    "threshold_arithmetic": "14fa94108a43eae95db544f19f4d9b1a2be6ce5fce31751f7f684fb60f1af481",
+    "weight_boxes": "e50ff0af82b2751b94593d6255df5df62d399a7e13202d07c7ce9d686e2b7d0c"
+  },
+  "regression": "54 passed in 10.20s",
+  "reviewed_current_sources": {
+    "experiments/m5_directed_refined_check.py": {
+      "review": "proofs/M5_TRANSFER_REVIEW.md",
+      "sha256": "2877c0bd9595f2f4cbb3bf7d1ca08abb031fb2005b3b998cbef7c90dc2c370af"
+    },
+    "proofs/M5_DIRECTED_REFINED.md": {
+      "review": "proofs/M5_TRANSFER_REVIEW.md",
+      "sha256": "08668a0ddbba107c2f56cc88e0d5f1b549c9ddec92490f4d35ba5f4e4005e38a"
+    },
+    "proofs/M5_EFFECTIVE_GAMMA.md": {
+      "review": "proofs/M5_EFFECTIVE_THRESHOLD_REVIEW.md",
+      "sha256": "3b4464ca52bf73db69916d900d66f7c21a28a455a4bc6d5bef6a708570676f86"
+    },
+    "proofs/M5_EFFECTIVE_KERNEL.md": {
+      "review": "proofs/M5_EFFECTIVE_THRESHOLD_REVIEW.md",
+      "sha256": "8eed3eefc97ee2fbefc09aa51f3de161c30de23d6c520303503ef7f1f8faa090"
+    },
+    "proofs/M5_EFFECTIVE_THRESHOLD.md": {
+      "review": "proofs/M5_EFFECTIVE_THRESHOLD_REVIEW.md",
+      "sha256": "5caf2b70e21ca0a4ec6ade19433e448e69f6b8aa13b2f0796e3043d7c9364c56"
+    },
+    "proofs/M5_EFFECTIVE_WEIGHTS.md": {
+      "review": "proofs/M5_EFFECTIVE_THRESHOLD_REVIEW.md",
+      "sha256": "3e941af8ac231dfb1833645459dd44dbdd697fb3502ba064c5d0d6d283c4e716"
+    },
+    "proofs/M5_MOMENT_RATE.md": {
+      "review": "proofs/M5_MOMENT_RATE_REVIEW.md",
+      "sha256": "9d8bdc4d72b8decbf696778ed061c635f8a216ed4440eb73a89c3de56d8fa811"
+    },
+    "proofs/M5_W_QUANTITATIVE.md": {
+      "review": "proofs/M5_TRANSFER_REVIEW.md",
+      "sha256": "2dc1dee4dae9a0fb58604f7c6d0b630f0410d7074732e1b1c9c202463608763f"
+    },
+    "proofs/m5_effective_threshold.py": {
+      "review": "proofs/M5_EFFECTIVE_THRESHOLD_REVIEW.md",
+      "sha256": "1f5ce269f338c91a3a41a039a61be38c3672c9184fc496ddfa6a6b06887709b8"
+    },
+    "proofs/m5_weight_boxes.py": {
+      "review": "proofs/M5_EFFECTIVE_THRESHOLD_REVIEW.md",
+      "sha256": "d3d4ef42411eb1ea336a7d62d0b45716a3b4181f2d0577c6580b20150a5f4e15"
+    }
+  },
+  "scope": "Internal research-draft acceptance. N0 effective for existence/noncancellation only; uniqueness/simplicity/residue threshold non-effective. No external review or M5 public publication.",
+  "source_revision": "36de16204859c54e8326b6e109dfb4ed14e028e7",
+  "status": "pass",
+  "unchanged_legacy_sources": {
+    "proofs/M3_NON_DFINITE_CANDIDATE.md": "e184726e834116e8eaf9d83926e571f40f4f2883eda1114b05c231872ec0a627",
+    "proofs/W_NON_DFINITE.md": "351372992c252773a291f78b38a3521e68be7d60113145ff05087509c217780a",
+    "publication/main.tex": "d020e1c1d58e08bc642e74d7da5a1f02df33eb42defcfd6053d1a7bf250fd0e0"
+  }
+}

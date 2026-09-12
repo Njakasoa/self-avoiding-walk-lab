@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "bare_product_primitive_initial": true,
+    "bare_product_primitive_step": true,
+    "first_log_coefficient_agrees": true,
+    "logarithmic_recurrence_order_0": true,
+    "logarithmic_recurrence_order_1": true,
+    "logarithmic_recurrence_order_2": true,
+    "logarithmic_recurrence_order_3": true,
+    "logarithmic_recurrence_order_4": true,
+    "logarithmic_recurrence_order_5": true,
+    "logarithmic_recurrence_order_6": true,
+    "logarithmic_recurrence_order_7": true,
+    "phase_eliminated_residue_identity": true,
+    "weighted_primitive_case_0": true,
+    "weighted_primitive_case_1": true,
+    "weighted_primitive_case_2": true
+  },
+  "classification": "EXACT ALGEBRA; asymptotic and analytic arguments separate",
+  "status": "pass"
+}

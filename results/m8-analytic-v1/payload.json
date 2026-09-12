@@ -1,0 +1,130 @@
+{
+  "algebra": {
+    "checks": {
+      "bare_product_primitive_initial": true,
+      "bare_product_primitive_step": true,
+      "first_log_coefficient_agrees": true,
+      "logarithmic_recurrence_order_0": true,
+      "logarithmic_recurrence_order_1": true,
+      "logarithmic_recurrence_order_2": true,
+      "logarithmic_recurrence_order_3": true,
+      "logarithmic_recurrence_order_4": true,
+      "logarithmic_recurrence_order_5": true,
+      "logarithmic_recurrence_order_6": true,
+      "logarithmic_recurrence_order_7": true,
+      "phase_eliminated_residue_identity": true,
+      "weighted_primitive_case_0": true,
+      "weighted_primitive_case_1": true,
+      "weighted_primitive_case_2": true
+    },
+    "classification": "EXACT ALGEBRA; asymptotic and analytic arguments separate",
+    "status": "pass"
+  },
+  "residue_coefficients": {
+    "N_cubed_residue_C0": {
+      "display": [
+        "-417740933/250000000000",
+        "-1464008157/1000000000000"
+      ],
+      "exact": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "-65839323299199309161538777161438174893261464115182278124510975102467092765586050777166098790185736951053912988922",
+        "upper_numerator": "-57684858506263055460987476207698710832802610393933058542322203817128099573209969105330920586752128168944360067808"
+      }
+    },
+    "N_cubed_residue_C1_log": {
+      "display": [
+        "-94355659/125000000000",
+        "-215502961/500000000000"
+      ],
+      "exact": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "-29742418073936675920332259056223827424098964171398867021297827283687372453795143670740174907889621839024826908423",
+        "upper_numerator": "-16982498043609908059426246817043178091818979161518464046003636614760487162344371739813851684489763063025982145017"
+      }
+    },
+    "classification": "EXACT LIMIT-COEFFICIENT ENCLOSURE; finite transfer is analytic",
+    "critical_input": "results/m5-critical-v1/payload.json",
+    "phase_C1": {
+      "display": [
+        "38696091937/100000000000",
+        "441662608427/1000000000000"
+      ],
+      "exact": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "15247036542806110693263268285623746609227853346345521669816925228652258141658553599111878537372523424237957577734360",
+        "upper_numerator": "17402392833944899027583663076524254200371373273571806727574378941927910067367448275532357023650731187484908380461515"
+      }
+    },
+    "residue_log_factor": {
+      "display": [
+        "294401312291/1000000000000",
+        "451742463069/1000000000000"
+      ],
+      "exact": {
+        "denominator_power_of_two": 384,
+        "lower_numerator": "11600002331147666073718721959439224840026403778934194195956735111373082520635346101765215277026515808789642071837533",
+        "upper_numerator": "17799559328995412084696042375088390439872526683111346346195584275346796216262203616517462981495749394291657262325814"
+      }
+    },
+    "status": "pass",
+    "theta_star_bracket": [
+      "1739/2000",
+      "109/125"
+    ]
+  },
+  "scope": "analytic research advance; full W coverage goal remains open",
+  "status": "pass",
+  "threshold_phase_residue_bounds": {
+    "F_prime_upper_bound": "-633999999999999999999999999999999999999999999999999759999999999999999999999999999999999999999999999999999999999991/500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "N_complex": "10^30",
+    "N_unique": "10^57",
+    "checks": {
+      "F_prime_below_minus_one": true,
+      "compact_log_sum_below_half": true,
+      "complex_joint_norm_below_1e8": true,
+      "critical_curvature_ratio_below_45": true,
+      "crossing_half_tube": true,
+      "delta_positive_real_part": true,
+      "derivative_error_below_1_point033": true,
+      "directed_reciprocal_coefficient_below_19": true,
+      "ellipse_horizontal_inside_rectangle": true,
+      "ellipse_vertical_inside_rectangle": true,
+      "eta_perturbation_below_point001": true,
+      "exterior_g_separation": true,
+      "exterior_root_separation": true,
+      "far_recurrence_contraction": true,
+      "finite_F_derivative_absolute_upper_below_31": true,
+      "fourth_root_upper": true,
+      "jacobian_error_coefficient_below_one": true,
+      "jacobian_normalized_lower": true,
+      "jacobian_normalized_upper": true,
+      "kernel_derivative_over_e_below_one_seventh": true,
+      "kernel_sector_domain": true,
+      "normalized_residue_magnitude_lower": true,
+      "normalized_residue_magnitude_upper": true,
+      "parameter_taylor_disk": true,
+      "phase_contraction_domain": true,
+      "phase_error_at_threshold_below_4_point19e_minus6": true,
+      "phase_hat_derivative_margin": true,
+      "r_damping": true,
+      "real_error_upper": true,
+      "residue_denominator_error_coefficient_below_point006": true,
+      "resummed_second_derivative_below_1200": true,
+      "spatial_error_scaled_N_cubed_below_6e_minus7": true,
+      "square_root_upper": true
+    },
+    "classification": "EXACT ARITHMETIC; analytic domain and approximation proof separately reviewed",
+    "complex_error_norm": 100000100,
+    "degree": 92,
+    "derivative_tail_bound": "660144473043297310521736689902164178443442953226460886745283011952356946732770330739381581253155673039145767688751220703125/17060854598433656769381087355941554237753252241241133755357802439272464734495613522026475804137596073543015155239783436910592",
+    "joint_derivative_allowance": "1033/1000",
+    "joint_derivative_bound": "6879614415289524078132221676520876811163840945877322082310314700864581653830338390821928495723343128673667057350289091972889717901/6664396327513147175539487248414669624122364156734817873186641577840806536912349032041592110991248466227740295015540405043200000000",
+    "phase_error_bound_at_threshold": "11312000000000000000000000000000000000000000000000001250000000000000000000000000000000000000000000000000000001/2700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "real_error_bound": "707/125000000",
+    "rho": "22/15",
+    "spatial_error_bound_times_N_cubed_at_threshold": "11312000000000000000000000000000000000000000000000001250000000000000000000000000000000000000000000000000000001/18900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "status": "pass",
+    "value_tail_bound": "594877489304278405285804634435115483203744162443925590575312591027747616940178632116698054232983849942684173583984375/2785445648723862329694871405051682324531143223059776939650253459473055466856426697473710335369403440578451453916699336638464"
+  }
+}

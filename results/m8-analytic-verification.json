@@ -1,0 +1,19 @@
+{
+  "N_unique": "10^57",
+  "discrete_primitive_scope": "identity only; sharper moment rate unproved",
+  "first_log_residue_coefficient_negative": true,
+  "full_W_theory_goal": "OPEN: accessible-to-asymptotic coverage not established",
+  "receipt": "m8-analytic-v1",
+  "reviewed_source_hashes": {
+    "proofs/M8_CHEBYSHEV_THRESHOLD.md": "3a48d150a12b8ac7eaa103bb02b70a491a4f0c15f4b4a98c4c5543336a59c5da",
+    "proofs/M8_COMPLEX_DOMAIN.md": "f0805eb13495486eed4a9c8809d4bebfba2dac16e4dc65345da905a17eac6283",
+    "proofs/M8_DISCRETE_PRIMITIVE.md": "284365adf0c8ce26bc93205e110b5788080f7237659e1ce9ccd9358340341488",
+    "proofs/M8_EFFECTIVE_PHASE.md": "359c116ffa597319463fa0c439d55793d35c7e7f00a5727580bbbf3004ce3e04",
+    "proofs/M8_RESIDUE_EXPANSION.md": "1d1e864f2184900d4cae5359dc817306691d3bcd81090c5214fa8ca6cadb02da",
+    "proofs/M8_RESUMMED_RESIDUE.md": "6337a164bebed858331895da68b89bf0d259f5dffae669db189d99e28a7db15b",
+    "proofs/m8_algebra.py": "80072392adc1d6096c6f322ff752d492d97887425df0e60c6627bf835dfc3bbb",
+    "proofs/m8_chebyshev_threshold.py": "a8a8dbbeb8020643a00f13ad2726c8e7a31e20f74d0b5730e6a1caf882a55a3f",
+    "proofs/m8_residue_coefficients.py": "97d17a3cb0e8a457652d8fdda046bda18b51853eafc7a19cee24b73a44a80cf2"
+  },
+  "status": "PASS: M8 analytic milestone provenance and arithmetic"
+}

@@ -1,0 +1,12 @@
+{
+  "conclusion": "F=0 implies 1+P<-2",
+  "domain": "N>=32, theta in[4/5,9/10]",
+  "full_W_coverage": "OPEN: zero existence and uniqueness not established for all indices",
+  "receipt": "m12-noncancellation-v1",
+  "reviewed_source_hashes": {
+    "experiments/m12_noncancellation_batch.py": "c7b30834af5fb6f5657bc332d9da6f118263614c4d769c6f48dceb30ff75dd26",
+    "proofs/M12_UNIFORM_NONCANCELLATION.md": "b615a6e4a11273526bb6f89779fe1e1a7c7f32bef7f6a341d73decd851ef2fb4",
+    "proofs/m12_noncancellation_bounds.py": "a97217a7c154c45ca5f49e26106c2f7535be37be67a7158be0460891da40b994"
+  },
+  "status": "PASS: uniform real-sector W noncancellation component"
+}

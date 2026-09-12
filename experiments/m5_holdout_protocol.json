@@ -1,0 +1,41 @@
+{
+  "calibration_payload": "results/m5-phase-v1/payload.json",
+  "calibration_payload_sha256": "23c4c0ac3fecb8ac8eed5dadaa921b77f27615cb293324023a82390c7ef15946",
+  "known_calibration_failure": "The finite log-offset fit intercept 0.36229 lies below certified asymptotic Cshift interval [0.38696,0.44167]; preserved, not used to certify the theorem.",
+  "parameters": {
+    "certificate_payload": "results/w-critical-v1/payload.json",
+    "derivative_step": "1e-4",
+    "final_D_tail_tolerance": "1e-14",
+    "final_dps": 68,
+    "final_tail_scale": "12",
+    "indices": [
+      32,
+      64,
+      128,
+      256
+    ],
+    "locator_D_tail_tolerance": "1e-12",
+    "locator_dps": 52,
+    "locator_tail_scale": "9",
+    "max_seconds": 120.0,
+    "phases": [
+      "0.75",
+      "0.80",
+      "0.85",
+      "0.90"
+    ],
+    "refinement_steps": 8
+  },
+  "predictions": {
+    "N2_sigma_minus_t": "0.00156391457446750644059618967732099362",
+    "theta_limit_minus_theta_times_log_N": "0.294290596153578411672489024754458472"
+  },
+  "schema_version": 1,
+  "theta_limit_midpoint": "0.870774252487470708465712786407591153",
+  "tolerance_policy": "Five times the maximum absolute calibration residual, fixed before N=512. Heuristic prediction check only; no refit on heldout.",
+  "tolerances": {
+    "N2_sigma_minus_t": "0.00000117978932961699770581630941383741565",
+    "theta_limit_minus_theta_times_log_N": "0.00509436118048629935816942408580349495"
+  },
+  "validation_index": 512
+}

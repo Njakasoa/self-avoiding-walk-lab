@@ -1,0 +1,21 @@
+{
+  "N_min": 32,
+  "full_F_phase_sign": "NOT PROVED",
+  "full_W_coverage": "OPEN: pre-crossing, boundary, tail and index connection remain",
+  "phase_band": [
+    "4/5",
+    "9/10"
+  ],
+  "post_crossing_terms": "N+1<=n<=60N",
+  "receipt": "m11-phase-v1",
+  "reviewed_source_hashes": {
+    "experiments/m11_phase_batch.py": "1a90f949f299c1c855ee0d07e58342c63b69c81e5dd1cf85a40731f31e36a5f5",
+    "proofs/M11_DIRECTED_PHASE_BOUND.md": "efe6b4c4a57e502cb4ff9b04835aaed556463c83d7cbc5e0d86cf73b687ef08e",
+    "proofs/M11_SMOOTH_PHASE_BOUND.md": "15e8c64e5d554a12eb40b68ef0b724d2aead52042779516fce9e78628f180f07",
+    "proofs/M11_WEIGHT_PHASE_BOUND.md": "e6fa7bbec97ed9caeb3785850728aeef64b20af610f70d3234a5e38398f06ca6",
+    "proofs/m11_directed_phase_bounds.py": "51de328cd9f840c21a40ad86da8dc7eb472c892c7dc85b3256dd96c414997e47",
+    "proofs/m11_smooth_phase_bounds.py": "720e4d0f4d61cee04ea51db61f9130dc4791c294cd35f519f1fa0ba58c20fe44",
+    "proofs/m11_weight_phase_bounds.py": "9270136d7b6f1c3f0fa1eb7f9c81548feeceed57e328087e9d766441c132b725"
+  },
+  "status": "PASS: reviewed M11 phase derivative components"
+}

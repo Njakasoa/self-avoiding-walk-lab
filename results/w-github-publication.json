@@ -1,0 +1,26 @@
+{
+  "branch": "main",
+  "external_contact_or_submission": false,
+  "external_review_packet": "publication/REVIEW_J_W.md",
+  "fresh_public_clone_verified": true,
+  "m4_portable_replay": "PASS; regenerated figures match original bytes",
+  "manifest_sha256": "54eec125a6a54607a462f6d34a1619c33caf20ddef527b5d3be324e0f18c4d72",
+  "negative_controls": {
+    "changed_scientific_source": "REJECTED",
+    "python_optimization": "REJECTED"
+  },
+  "next_step_preparation_status": "COMPLETE; reading guide, exact review questions, evidence links and portable replay commands published",
+  "next_step_selected_by_user": "Prepare external proof review",
+  "previous_public_commit": "ef57f97255abf5955108456952536c8e97e9dd1c",
+  "private_git_history_published": false,
+  "public_commit": "fa1a113021e0cf495c028b116fb3a91bbc01698d",
+  "publication_priority": "UNRESOLVED",
+  "repository": "https://github.com/Njakasoa/self-avoiding-walk-lab",
+  "snapshot_files_verified": 234,
+  "source_revision": "980b4bf66b0f4b6043d8030637c283eb6a6fc38e",
+  "status": "PUBLISHED_AND_VERIFIED",
+  "tests": "54 passed in 10.39s in clean exported snapshot",
+  "utc": "2026-09-12T11:38:55.632257+00:00",
+  "w_portable_replay": "PASS in exported snapshot and fresh public clone",
+  "w_proof_sha256": "351372992c252773a291f78b38a3521e68be7d60113145ff05087509c217780a"
+}

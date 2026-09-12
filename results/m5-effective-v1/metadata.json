@@ -1,0 +1,37 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": ".venv/bin/python -m experiments.m5_effective_batch m5-effective-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m5-effective-v1",
+  "git_commit": "36de16204859c54e8326b6e109dfb4ed14e028e7",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m5_effective_batch.py": "ac9cef8fc7b630815a037f244cc85d8f142a55fccad6cc9fed24d34ef068c5c8",
+    "proofs/M5_EFFECTIVE_GAMMA.md": "3b4464ca52bf73db69916d900d66f7c21a28a455a4bc6d5bef6a708570676f86",
+    "proofs/M5_EFFECTIVE_KERNEL.md": "8eed3eefc97ee2fbefc09aa51f3de161c30de23d6c520303503ef7f1f8faa090",
+    "proofs/M5_EFFECTIVE_THRESHOLD.md": "5caf2b70e21ca0a4ec6ade19433e448e69f6b8aa13b2f0796e3043d7c9364c56",
+    "proofs/M5_EFFECTIVE_WEIGHTS.md": "3e941af8ac231dfb1833645459dd44dbdd697fb3502ba064c5d0d6d283c4e716",
+    "proofs/m5_effective_threshold.py": "1f5ce269f338c91a3a41a039a61be38c3672c9184fc496ddfa6a6b06887709b8",
+    "proofs/m5_weight_boxes.py": "d3d4ef42411eb1ea336a7d62d0b45716a3b4181f2d0577c6580b20150a5f4e15",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "results/m5-critical-v1/payload.json": "f94823cf257ffd1c9cf6becea60c07cad100232b787e4253ba7d18681557fd8b",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "c105bdc561220e9bbad1f68c8029d37f066ab4c8de61108ebd103ae2011cf86f"
+  },
+  "parameters": {
+    "N0_expression": "2^(10^120)",
+    "scope": "W existence and noncancellation"
+  },
+  "peak_rss_kib_process": 18328,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.004065618006279692,
+  "seed": null,
+  "utc": "2026-09-12T12:36:21.797798+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}
