@@ -1,0 +1,34 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m3_research_batch.py span --run-id m3-span-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m3-span-v1",
+  "git_commit": "9c6dd75fdfe19e61337439bf6079ae2cda7a1c23",
+  "git_dirty": true,
+  "input_hashes": {
+    "NORMALIZATION.md": "37849ff3ddc245d187c1418a75f4d2a65d438c1b181a3effa25dbfe0d5741ec7",
+    "experiments/m3_research_batch.py": "080d5c438c7a42ab64a168ad49528d2bde7af091687d9d9cab91c73196e7fcaf",
+    "experiments/m3_span_probe.py": "0586ddd7b9cd2801a33eeceb86d2a2baa487cc3f638457abe743f22eff8d9f3b",
+    "proofs/M3_SPAN_STRUCTURE_NOTES.md": "ffec1c5e544127714fc12829692b8b57243e36407493380d5ef6eba0343c7a40",
+    "src/bridge_spans.py": "8f0ae85807b7415de3a9b60a66f4d6dbd28c31784dac33948e80bd50455453ad",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "48c54a5b16b49f2f9ad03cab13390a450015116339100d28f1192c28ba4fcc4b"
+  },
+  "parameters": {
+    "max_n": 30,
+    "max_seconds": 60,
+    "weighted_max_n": 18
+  },
+  "peak_rss_kib_process": 18984,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 13.826925070003199,
+  "seed": null,
+  "utc": "2026-09-12T09:34:52.037552+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

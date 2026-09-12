@@ -1,0 +1,30 @@
+{
+  "all_generated_outputs_match_receipt": true,
+  "all_receipt_inputs_match_git": true,
+  "external_submission": false,
+  "independent_manifest_match": true,
+  "pdf_pages": 11,
+  "publication_priority": "UNRESOLVED",
+  "receipt": "m4-publication-v1",
+  "render_tool": "pypdfium2 5.13.0 (inspection only, installed under /tmp)",
+  "reviewed_manuscript_sha256": "d020e1c1d58e08bc642e74d7da5a1f02df33eb42defcfd6053d1a7bf250fd0e0",
+  "reviews": {
+    "results/m4-astra-review.md": "6fb782d9e2b68dbb94f574759bff73cc83885568602e4975a17cc060105d9b9a",
+    "results/m4-independent-reproduction.md": "b182b7cb69f42dc396761e5e1cd016950b728b1a070e3877877cc5dfd75dfb90"
+  },
+  "source_commit": "1de09edeac5ecea908d2ce7deccb9a1d2f03229b",
+  "source_manifest_sha256": "e4ed9774c991ad3c5e81ed1f79d0ce23165f6b174c5f6911f8751bd3c5f50bde",
+  "status": "PASS",
+  "test_command": ".venv/bin/python -m pytest -q",
+  "test_output": "......................................................                   [100%]\n54 passed in 10.16s",
+  "test_runtime_seconds": 10.404664259993297,
+  "typesetting_note": "One 1.5039pt overfull keywords line; visually harmless, no clipping on inspected pages.",
+  "unresolved_pdf_references": 0,
+  "visual_inspection_pages": [
+    1,
+    2,
+    3,
+    6,
+    11
+  ]
+}

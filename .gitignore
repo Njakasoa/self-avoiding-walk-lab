@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+*.pyc
+publication/dist/
+
+# Local-only material omitted from the public snapshot
+.agents/
+.codex/
+memory/
+environment/
+papers/*.pdf
+references/*.txt

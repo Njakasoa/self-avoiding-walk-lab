@@ -1,0 +1,43 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m3_critical_batch.py phase --run-id m3-critical-phase-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m3-critical-phase-v1",
+  "git_commit": "dbf8e6539817289732735a7c103b7a4b8fc64676",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m3_critical_batch.py": "25788c28514b7becc00920ba2443617b68b3bf19f20015fafe2c1bf3811126e4",
+    "experiments/m3_phase_probe.py": "b1248eea86606c287bf45a6b1836dcf3267e645f97f5c29b88c54a144de5a0db",
+    "experiments/m3_prudent_singularity_probe.py": "71722e6841ad87127847adcfdc1bca8ab815ea7b706db8734ea1c356bd30c072",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "b36a374f9c5a087d02006843ef1e41a1fee5c8263986f51bd99853b7d459de8e"
+  },
+  "parameters": {
+    "N": [
+      8,
+      16,
+      32
+    ],
+    "terms": [
+      3200,
+      6400
+    ],
+    "theta": [
+      "0.30",
+      "0.35"
+    ]
+  },
+  "peak_rss_kib_process": 21712,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 9.437477611994836,
+  "seed": null,
+  "utc": "2026-09-12T10:05:14.010311+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

@@ -1,0 +1,27 @@
+{
+  "source_commit": "9c6dd75fdfe19e61337439bf6079ae2cda7a1c23",
+  "command": "PYTHONPATH=. .venv/bin/python proofs/check_m3.py",
+  "status": {
+    "deadline_cases": 13,
+    "ladder_coefficients": 31,
+    "weighted_witnesses": 3,
+    "prudent_singularities": 5,
+    "status": "PASS; finite checkpoint, M3 theorem open"
+  },
+  "input_hashes": {
+    "proofs/check_m3.py": "fecc450372744eb07ef117a9c044bda0b716f73c27663163f02763117a38ad13",
+    "results/m3-tests.json": "ec8adfc007663d222356c87ceeef19ca38e764dbb69df73a9664081b78e21b47",
+    "results/m3-deadline-v1/metadata.json": "31942e17efbb2da4670fffbdd15a77fa80132a8d87f2eb461ce33ee37fe6bc69",
+    "results/m3-deadline-v1/payload.json": "5f55bc450fd61b4ddc3adc90cab2b7811338c4d283ef957d6905758b19395d3f",
+    "results/m3-prudent-v1/metadata.json": "27b30efb0ddafe133dc1a7e4f157fff257cbffdc9cf79752a4f45aa3683698e4",
+    "results/m3-prudent-v1/payload.json": "00ecfd9ceaf476b2a390744423dc7bb3d73fdac1550cda09971275bcced8994f",
+    "results/m3-span-v1/metadata.json": "fae5c6bd93b703c01dcdc2cfc0146402d7e6942a2f74237f7be576040b8d3ecc",
+    "results/m3-span-v1/payload.json": "48c54a5b16b49f2f9ad03cab13390a450015116339100d28f1192c28ba4fcc4b",
+    "results/m3-weights-v1/metadata.json": "49a4a0f205d3d9c6cc127abb63d13ae6a3c2de47813ce075b453885c014b40d6",
+    "results/m3-weights-v1/payload.json": "2a30b8dd0ac4aeca7ee5a87b70e86007a9e0b5ccaca6c58ed0d04ec748cf4299"
+  },
+  "output_hashes": {
+    "results/m3-checker-output.json": "752eb109f9d83ac0566347e2e33d2553a9f1bca8024740b5fa1a33bbca5ad86a"
+  },
+  "scope": "Finite checkpoint only; infinite noncancellation open; M4 withheld"
+}

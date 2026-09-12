@@ -1,0 +1,45 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m1_optimized_modes.py m1-optimized-modes-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m1-optimized-modes-v1",
+  "git_commit": "8f25c4b004ddcaece26ddc3be126928617c9e116",
+  "git_dirty": true,
+  "input_hashes": {
+    "NORMALIZATION.md": "37849ff3ddc245d187c1418a75f4d2a65d438c1b181a3effa25dbfe0d5741ec7",
+    "data/A001411.txt": "fcfb9abf684d364632e20e34447671ff671d85895c03fd3121aff850f776c8e9",
+    "experiments/m1_optimized_modes.py": "8ab85e2de5f05c02f74c1de3edb85b4acb7a00ba1377db92ec765476795d08d5",
+    "proofs/OPTIMIZED_ENUMERATOR.md": "9f180eb8da6aecb0521e4b097c5b52ccffd3f2de2dcfa1dc61d78a4fd6ce8efe",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "src/optimized_enumerator.cpp": "808fe26672b680e055e786f7229f023e0004e2510312719619b84af97e051d52",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34",
+    "src/reference_enumerator.py": "23a8757fc72331dbf6523c23c32cddfdcf69ac2a04e55aeee8fe39946d43dc3d"
+  },
+  "output_hashes": {
+    "payload.json": "dede9b4d60309bb0a1feb156430f9c9c8c2e3f116283570ef855152155a7cd39"
+  },
+  "parameters": {
+    "direct_n": [
+      0,
+      1,
+      12,
+      20
+    ],
+    "memo_n": [
+      0,
+      1,
+      12
+    ],
+    "reference_n": 12
+  },
+  "peak_rss_kib_process": 18176,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 2.7554828290012665,
+  "seed": null,
+  "utc": "2026-09-12T08:14:45.909490+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

@@ -1,0 +1,172 @@
+{
+  "direct_linegraph_checks": [
+    {
+      "different_rows": 0,
+      "equal": true,
+      "extra_weight": 0,
+      "memory": 9,
+      "missing_weight": 0,
+      "next_memory": 10
+    },
+    {
+      "different_rows": 372,
+      "equal": false,
+      "extra_weight": 372,
+      "memory": 10,
+      "missing_weight": 0,
+      "next_memory": 11
+    },
+    {
+      "different_rows": 0,
+      "equal": true,
+      "extra_weight": 0,
+      "memory": 11,
+      "missing_weight": 0,
+      "next_memory": 12
+    }
+  ],
+  "prediction": {
+    "actual_q12": 958,
+    "m11_quotient": 983,
+    "m11_zero_indegree": 25,
+    "predicted_q12": 958,
+    "prediction_matches": true
+  },
+  "provenance": {
+    "command": "PYTHONPATH=. .venv/bin/python proofs/check_linegraph_candidate.py",
+    "input_hashes": {
+      "NORMALIZATION.md": "37849ff3ddc245d187c1418a75f4d2a65d438c1b181a3effa25dbfe0d5741ec7",
+      "proofs/EQUITABLE_COMPRESSION.md": "fa19eb28b37a830e04832db92ac8be17315ad659f214a462cf314cf6200ffaca",
+      "proofs/FINITE_MEMORY.md": "1f530880df261fa06518d34f26b36d385105cb57d70411aa07705fa74dc22e11",
+      "proofs/check_linegraph_candidate.py": "0f8723bcc8f26bfb78fe86e1489f4497e0d3b82bbea1f70c6f3c77bfd918670d"
+    },
+    "report_path": "/home/njakasoa/.openclaw/workspace/projects/github/self-avoiding-walk-lab/results/linegraph-independent-report.md",
+    "report_sha256": "3054c3a6b11614e662398241ca67988721c6ac0a62f8d78d5ca64cfeb63c5789",
+    "result_sha256": "b610bedb5190ef46ba6b6dba392de9dad9a0b60f87fe6ff7eace4226ea5a1189",
+    "source_commit": "eed1923e78f7cf5d0fa643e3d09b4b1826d8ff92",
+    "worktree_dirty": true
+  },
+  "quotient_checks": [
+    {
+      "current_positive_classes": 204,
+      "isomorphism": {
+        "isomorphic": true,
+        "left_vertices": 204,
+        "reason": "weighted refinement produced a verified bijection",
+        "refinement_rounds": 8,
+        "right_vertices": 204,
+        "singleton_cross_side_blocks": true,
+        "union_blocks": 204
+      },
+      "memory": 9,
+      "next_memory": 10
+    },
+    {
+      "current_positive_classes": 204,
+      "isomorphism": {
+        "isomorphic": false,
+        "left_vertices": 983,
+        "reason": "different vertex counts",
+        "refinement_rounds": 0,
+        "right_vertices": 204,
+        "singleton_cross_side_blocks": false,
+        "union_blocks": null
+      },
+      "memory": 10,
+      "next_memory": 11
+    },
+    {
+      "current_positive_classes": 958,
+      "isomorphism": {
+        "isomorphic": true,
+        "left_vertices": 958,
+        "reason": "weighted refinement produced a verified bijection",
+        "refinement_rounds": 9,
+        "right_vertices": 958,
+        "singleton_cross_side_blocks": true,
+        "union_blocks": 958
+      },
+      "memory": 11,
+      "next_memory": 12
+    }
+  ],
+  "reducible_sink_sanity": {
+    "linegraph_quotient_vertices": 2,
+    "original_quotient_vertices": 3,
+    "original_vertices": 6,
+    "positive_indegree_classes": 2,
+    "quotient_isomorphism": {
+      "isomorphic": true,
+      "left_vertices": 2,
+      "reason": "weighted refinement produced a verified bijection",
+      "refinement_rounds": 2,
+      "right_vertices": 2,
+      "singleton_cross_side_blocks": true,
+      "union_blocks": 2
+    },
+    "sink_classes": 1,
+    "zero_indegree_classes": 1
+  },
+  "square_cases": [
+    {
+      "build_seconds": 0.14685831400129246,
+      "memory": 9,
+      "quotient_classes": 207,
+      "state_count": 2034,
+      "stored_transition_count": 5512,
+      "transition_count": 5514,
+      "zero_indegree_classes": 3,
+      "zero_outdegree_classes": 1
+    },
+    {
+      "build_seconds": 0.45617545999994036,
+      "memory": 10,
+      "quotient_classes": 204,
+      "state_count": 5513,
+      "stored_transition_count": 15036,
+      "transition_count": 15038,
+      "zero_indegree_classes": 0,
+      "zero_outdegree_classes": 1
+    },
+    {
+      "build_seconds": 1.4890431840030942,
+      "memory": 11,
+      "quotient_classes": 983,
+      "state_count": 15037,
+      "stored_transition_count": 40616,
+      "transition_count": 40618,
+      "zero_indegree_classes": 25,
+      "zero_outdegree_classes": 1
+    },
+    {
+      "build_seconds": 4.219178494000516,
+      "memory": 12,
+      "quotient_classes": 958,
+      "state_count": 40617,
+      "stored_transition_count": 110187,
+      "transition_count": 110189,
+      "zero_indegree_classes": 8,
+      "zero_outdegree_classes": 1
+    }
+  ],
+  "triangular_control": [
+    {
+      "different_rows": 12,
+      "equal": false,
+      "extra_weight": 12,
+      "memory": 1,
+      "missing_weight": 0,
+      "next_memory": 2,
+      "next_state_count": 30
+    },
+    {
+      "different_rows": 24,
+      "equal": false,
+      "extra_weight": 24,
+      "memory": 2,
+      "missing_weight": 0,
+      "next_memory": 3,
+      "next_state_count": 138
+    }
+  ]
+}

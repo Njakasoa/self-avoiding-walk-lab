@@ -1,0 +1,34 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m3_research_batch.py prudent --run-id m3-prudent-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m3-prudent-v1",
+  "git_commit": "9c6dd75fdfe19e61337439bf6079ae2cda7a1c23",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m3_research_batch.py": "080d5c438c7a42ab64a168ad49528d2bde7af091687d9d9cab91c73196e7fcaf",
+    "papers/bacher-beaton-2014.pdf": "04205e9fafa5330cb518e4c22a3db6f5677cddc915342fae83acbe076039b2c0",
+    "proofs/m3_prudent_intervals.py": "a2230bdeedbefcd5550cc64f304dcdd4b887a5c60f77e4f7cac974ad71451ff1",
+    "proofs/m3_prudent_reference.py": "2fbd8c664395d45a0e53cda74b840d2d2abda26e7ce4b57bda6d479fb03bd500",
+    "references/bacher-beaton-2014.txt": "d9dfa12998b29a5e19fe1cb021f352debe3656a4e5a9a78767e2f29d60b1d865",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "00ecfd9ceaf476b2a390744423dc7bb3d73fdac1550cda09971275bcced8994f"
+  },
+  "parameters": {
+    "bits": 384,
+    "geometric_max_n": 12,
+    "root_brackets": 5
+  },
+  "peak_rss_kib_process": 19084,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 2.0596031850000145,
+  "seed": null,
+  "utc": "2026-09-12T09:34:52.053623+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

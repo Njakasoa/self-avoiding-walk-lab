@@ -1,0 +1,15 @@
+{
+  "checker_stdout": "PASS: frozen inputs, output hashes, complete automata, exact spectral inequalities, renewal algebra and root interval\nScope: bridge geometric count validity is checked independently by tests, not inferred from this algebra alone.\n",
+  "folders": [
+    "m1-certificates-v1",
+    "m1-certificates-v2",
+    "m1-enumeration-v1",
+    "honeycomb-control-v1"
+  ],
+  "independent_review": "results/astra-review.md",
+  "pytest_stderr": "",
+  "pytest_stdout": "..........                                                               [100%]\n10 passed in 3.77s\n",
+  "scientific_v1_v2_identical": true,
+  "tester_report": "results/tester-report.md",
+  "verified_source_receipt_entries": 31
+}

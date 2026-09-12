@@ -1,0 +1,30 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m3_critical_batch.py identities --run-id m3-critical-identities-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m3-critical-identities-v1",
+  "git_commit": "dbf8e6539817289732735a7c103b7a4b8fc64676",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m3_coboundary_probe.py": "4b6ea78b9016139de7da00ebaa50f1e3eb354111f5c78668d2e7ddc228313dd1",
+    "experiments/m3_critical_batch.py": "25788c28514b7becc00920ba2443617b68b3bf19f20015fafe2c1bf3811126e4",
+    "experiments/m3_moment_identities.py": "da79d60772e70d2db3301ac305909e7b1df290bbf4e4ff086687dc52d9c3d98c",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "f5adaf60db10223d027f069c7bb9bd3c90ffe25dcfc4278219a27f65efcf7520"
+  },
+  "parameters": {
+    "arithmetic": "exact symbolic"
+  },
+  "peak_rss_kib_process": 59244,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 3.9176124570003594,
+  "seed": null,
+  "utc": "2026-09-12T10:05:14.177199+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

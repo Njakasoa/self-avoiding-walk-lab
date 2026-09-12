@@ -1,0 +1,137 @@
+{
+  "classification": "EXACT INTEGER",
+  "compiler_flags": [
+    "-std=c++20",
+    "-O3",
+    "-DNDEBUG"
+  ],
+  "interpretation": "memo correctness is established by agreement; timing is one sample, not a confidence interval",
+  "reference_counts": [
+    1,
+    4,
+    12,
+    36,
+    100,
+    284,
+    780,
+    2172,
+    5916,
+    16268,
+    44100,
+    120292,
+    324932
+  ],
+  "reference_max_n": 12,
+  "reference_seconds": 0.14627157199720386,
+  "runs": [
+    {
+      "counts": [
+        1
+      ],
+      "max_n": 0,
+      "mode": "direct",
+      "peak_rss_kib_child": 3564,
+      "seconds": 0.0022149999931571074
+    },
+    {
+      "counts": [
+        1
+      ],
+      "max_n": 0,
+      "mode": "memo-small",
+      "peak_rss_kib_child": 3576,
+      "seconds": 0.0019267969983047806
+    },
+    {
+      "counts": [
+        1,
+        4
+      ],
+      "max_n": 1,
+      "mode": "direct",
+      "peak_rss_kib_child": 3640,
+      "seconds": 0.0017642469974816777
+    },
+    {
+      "counts": [
+        1,
+        4
+      ],
+      "max_n": 1,
+      "mode": "memo-small",
+      "peak_rss_kib_child": 3572,
+      "seconds": 0.0017542419955134392
+    },
+    {
+      "counts": [
+        1,
+        4,
+        12,
+        36,
+        100,
+        284,
+        780,
+        2172,
+        5916,
+        16268,
+        44100,
+        120292,
+        324932
+      ],
+      "max_n": 12,
+      "mode": "direct",
+      "peak_rss_kib_child": 3584,
+      "seconds": 0.0024073340027825907
+    },
+    {
+      "counts": [
+        1,
+        4,
+        12,
+        36,
+        100,
+        284,
+        780,
+        2172,
+        5916,
+        16268,
+        44100,
+        120292,
+        324932
+      ],
+      "max_n": 12,
+      "mode": "memo-small",
+      "peak_rss_kib_child": 16156,
+      "seconds": 0.06631457400362706
+    },
+    {
+      "counts": [
+        1,
+        4,
+        12,
+        36,
+        100,
+        284,
+        780,
+        2172,
+        5916,
+        16268,
+        44100,
+        120292,
+        324932,
+        881500,
+        2374444,
+        6416596,
+        17245332,
+        46466676,
+        124658732,
+        335116620,
+        897697164
+      ],
+      "max_n": 20,
+      "mode": "direct",
+      "peak_rss_kib_child": 3584,
+      "seconds": 1.3393215830001282
+    }
+  ]
+}

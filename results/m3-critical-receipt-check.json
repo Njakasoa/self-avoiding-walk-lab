@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "receipts": [
+    "m3-critical-identities-v1",
+    "m3-critical-integrals-v1",
+    "m3-critical-phase-v1",
+    "m3-critical-asymptotic-v1"
+  ],
+  "scope": "Input bytes match committed source; output hashes match frozen payloads."
+}

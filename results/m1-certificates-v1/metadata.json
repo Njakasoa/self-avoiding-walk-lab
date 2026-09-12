@@ -1,0 +1,45 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m1_certificates.py m1-certificates-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m1-certificates-v1",
+  "git_commit": "0840c52836cbba818b8d35322fdd99e7ba0e10f1",
+  "git_dirty": true,
+  "input_hashes": {
+    "NORMALIZATION.md": "37849ff3ddc245d187c1418a75f4d2a65d438c1b181a3effa25dbfe0d5741ec7",
+    "experiments/m1_certificates.py": "43259079b838df2904f16848d828f3f69cdbe0152f039cbd31fc077a6b8566df",
+    "proofs/BRIDGE_RENEWAL.md": "5db9353144ef4c99bbd678eb91762c65ade826608455f265c875b3f46e306968",
+    "proofs/FINITE_MEMORY.md": "1f530880df261fa06518d34f26b36d385105cb57d70411aa07705fa74dc22e11",
+    "requirements-lock.txt": "fd67fb3ccb3c4842dd07c2569a39cecc0667f9e2688e7d26ae95a1075fdd32bb",
+    "src/automaton.py": "1c35a4e0174614822fd1dd804b5cc635e9d63c84f56b15e98da28f5892f9bf70",
+    "src/bridges.py": "1d050bade384254e242677f316b8c3f61b22756b9c3fe6082c45b9666aee64ca",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "081cd03ae7750a4c4d0ebf3e59c2e319fb2647f46fb1856e6eb9785cb7d4dbf2"
+  },
+  "parameters": {
+    "bridge_max_n": 12,
+    "memories": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "power_iterations": 120
+  },
+  "peak_rss_kib_process": 23788,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.33397751400480047,
+  "seed": null,
+  "utc": "2026-09-12T07:47:08.748057+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

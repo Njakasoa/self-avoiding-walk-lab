@@ -1,0 +1,9 @@
+[project]
+name = "self-avoiding-walk-lab"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["sympy==1.14.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

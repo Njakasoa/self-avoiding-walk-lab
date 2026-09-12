@@ -1,0 +1,182 @@
+{
+  "classification": "EXACT INTEGER",
+  "compiler_flags": [
+    "-std=c++20",
+    "-O3",
+    "-DNDEBUG"
+  ],
+  "cpp_common_n14_seconds": 0.0045899320030002855,
+  "cpp_counts": [
+    1,
+    4,
+    12,
+    36,
+    100,
+    284,
+    780,
+    2172,
+    5916,
+    16268,
+    44100,
+    120292,
+    324932,
+    881500,
+    2374444,
+    6416596,
+    17245332,
+    46466676,
+    124658732,
+    335116620,
+    897697164
+  ],
+  "cpp_max_n": 20,
+  "cpp_seconds": 1.1959719430014957,
+  "finite_boxes": [
+    {
+      "connectivity_peak_states": 1,
+      "connectivity_seconds": 1.2300006346777081e-05,
+      "counts": [
+        1,
+        0
+      ],
+      "dfs_seconds": 9.97000461211428e-06,
+      "height": 1,
+      "max_n": 1,
+      "occupation_seconds": 4.3199979700148106e-06,
+      "width": 1
+    },
+    {
+      "connectivity_peak_states": 16,
+      "connectivity_seconds": 5.431000317912549e-05,
+      "counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "dfs_seconds": 1.063899981090799e-05,
+      "height": 5,
+      "max_n": 5,
+      "occupation_seconds": 1.7029997252393514e-05,
+      "width": 1
+    },
+    {
+      "connectivity_peak_states": 12,
+      "connectivity_seconds": 3.0410003091674298e-05,
+      "counts": [
+        1,
+        2,
+        2,
+        2,
+        0
+      ],
+      "dfs_seconds": 8.100003469735384e-06,
+      "height": 2,
+      "max_n": 4,
+      "occupation_seconds": 9.469003998674452e-06,
+      "width": 2
+    },
+    {
+      "connectivity_peak_states": 76,
+      "connectivity_seconds": 0.00020321799820521846,
+      "counts": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        3,
+        0
+      ],
+      "dfs_seconds": 1.5189994883257896e-05,
+      "height": 3,
+      "max_n": 6,
+      "occupation_seconds": 1.3080003554932773e-05,
+      "width": 2
+    },
+    {
+      "connectivity_peak_states": 76,
+      "connectivity_seconds": 0.0001415879960404709,
+      "counts": [
+        1,
+        2,
+        3,
+        5,
+        4,
+        3,
+        0
+      ],
+      "dfs_seconds": 1.148000592365861e-05,
+      "height": 2,
+      "max_n": 6,
+      "occupation_seconds": 1.0449999535921961e-05,
+      "width": 3
+    },
+    {
+      "connectivity_peak_states": 1459,
+      "connectivity_seconds": 0.0035936239946749993,
+      "counts": [
+        1,
+        2,
+        4,
+        8,
+        14,
+        14,
+        16,
+        12,
+        8,
+        0
+      ],
+      "dfs_seconds": 4.140999953961e-05,
+      "height": 3,
+      "max_n": 9,
+      "occupation_seconds": 2.8548995032906532e-05,
+      "width": 3
+    },
+    {
+      "connectivity_peak_states": 27909,
+      "connectivity_seconds": 0.07219937899935758,
+      "counts": [
+        1,
+        2,
+        4,
+        9,
+        18,
+        31,
+        38,
+        54,
+        50,
+        54,
+        31,
+        17,
+        0
+      ],
+      "dfs_seconds": 0.00015497799904551357,
+      "height": 4,
+      "max_n": 12,
+      "occupation_seconds": 8.606899791629985e-05,
+      "width": 3
+    }
+  ],
+  "reference_counts": [
+    1,
+    4,
+    12,
+    36,
+    100,
+    284,
+    780,
+    2172,
+    5916,
+    16268,
+    44100,
+    120292,
+    324932,
+    881500,
+    2374444
+  ],
+  "reference_max_n": 14,
+  "reference_seconds": 1.1019091830021353
+}

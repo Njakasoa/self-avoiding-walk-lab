@@ -1,0 +1,51 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/discovery_findings.py discovery-findings-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "discovery-findings-v1",
+  "git_commit": "0166e6f516723c64e8b995f255832ab29f112cb2",
+  "git_dirty": true,
+  "input_hashes": {
+    "DISCOVERY_ENGINE.md": "f053698153d1f958bbb7768610e1d9f661671d951a9d6a3b51d9bb0a3b268bc3",
+    "environment/NEXT_GOAL_BRIEF.md": "fbe4f53e213e72bd4c95a9a7c8f47c4c9e909875516e6c4e20611811d9f893dc",
+    "experiments/discovery_findings.py": "684281c439ff1a1f132182cc983e8809c83681f1ccc4f05f49d23406c41b0de9",
+    "proofs/DISCOVERY_MEMORY.md": "2765ad7652d07df8f99b0c95634849a4d89b4f75f4d4a38730dd8680e15e9673",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "results/e1-compression-v1/metadata.json": "22b8550780581ec3d063fe324ac15d8cc73c26d700dba3d42b3fa0e199cb7e9f",
+    "results/e1-compression-v1/payload.json": "dd839868733c5c1fb3161f01216da2e69e2edd2e99c4e9a45e095c929e98035f",
+    "results/e2-spans-v1/metadata.json": "72e0506a88eb9fb542e73332d3d626e676462568664a18d2ab51b1e607c0a191",
+    "results/e2-spans-v1/payload.json": "a4a2e59cb2d540d5d64633b4ecf7ef553768d9c4fa8c7cbd806a49fb8f82568d",
+    "results/e3-weights-v1/metadata.json": "7c09b81775ad6bccb608793d62fe3846de6f4a15500102ba5727099ed736406c",
+    "results/e3-weights-v1/payload.json": "d1d447ca90ca753233aae6db4f5ac70f3955ea66b7a5e9669e45b74c43dc3aeb",
+    "results/m2-variants-v2/metadata.json": "394277eb9c329b42a8a027aecb1f9e3517b3f50507dce0c8a677d4e988cc6121",
+    "results/m2-variants-v2/payload.json": "e2f6b45986ccf94f9354fb911d5e75a11365cf6b9ad079fcd432ec345e7fb7c4",
+    "src/discovery_engine.py": "d249acf1324812a70f66808d186e154d2e86bf41f43d33110e636b3f6b019026",
+    "src/discovery_memory.py": "4f5e2da90e788819b02c58b9c616abc436fdda2c93c724369f54ff011aba3dee",
+    "src/equitable.py": "b18072f0f546a83b744fcde850c162fd1eb1a259c8057b3db18c016119851e01",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "1eea13a0ad352965ee30f641a035f3e44d1d1c55aa15b302815ae78497c47a9b"
+  },
+  "parameters": {
+    "dfs_budgets": [
+      100,
+      1000,
+      10000,
+      100000,
+      1000000,
+      3000000,
+      30000000
+    ]
+  },
+  "peak_rss_kib_process": 91080,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 0.10764283400203567,
+  "seed": null,
+  "utc": "2026-09-12T08:49:52.316545+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

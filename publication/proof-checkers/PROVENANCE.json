@@ -1,0 +1,40 @@
+{
+  "source_commit": "dbf8e65",
+  "copies": [
+    {
+      "repository_source": "proofs/m3_prudent_intervals.py",
+      "source_sha256": "a2230bdeedbefcd5550cc64f304dcdd4b887a5c60f77e4f7cac974ad71451ff1",
+      "bundled_file": "proof-checkers/intervals.py",
+      "bundled_sha256": "a2230bdeedbefcd5550cc64f304dcdd4b887a5c60f77e4f7cac974ad71451ff1",
+      "adaptation": "byte-identical"
+    },
+    {
+      "repository_source": "proofs/m3_critical_integrals.py",
+      "source_sha256": "da519b98367b64d29b18f50f13ecf42a2dae54550c6b3771fabbd92f8964cf16",
+      "bundled_file": "proof-checkers/critical_integrals.py",
+      "bundled_sha256": "9e5c593b76a41435315be6d0f1e163fcd082a2c88b4cff0f0aaad67a23f0f2c5",
+      "adaptation": "local import only"
+    },
+    {
+      "repository_source": "experiments/m3_moment_identities.py",
+      "source_sha256": "da79d60772e70d2db3301ac305909e7b1df290bbf4e4ff086687dc52d9c3d98c",
+      "bundled_file": "proof-checkers/moment_identities.py",
+      "bundled_sha256": "da79d60772e70d2db3301ac305909e7b1df290bbf4e4ff086687dc52d9c3d98c",
+      "adaptation": "byte-identical"
+    },
+    {
+      "repository_source": "experiments/m3_coboundary_probe.py",
+      "source_sha256": "4b6ea78b9016139de7da00ebaa50f1e3eb354111f5c78668d2e7ddc228313dd1",
+      "bundled_file": "proof-checkers/independent_identities.py",
+      "bundled_sha256": "4b6ea78b9016139de7da00ebaa50f1e3eb354111f5c78668d2e7ddc228313dd1",
+      "adaptation": "byte-identical"
+    },
+    {
+      "repository_source": "proofs/m3_prudent_reference.py",
+      "source_sha256": "2fbd8c664395d45a0e53cda74b840d2d2abda26e7ce4b57bda6d479fb03bd500",
+      "bundled_file": "proof-checkers/reference_counts.py",
+      "bundled_sha256": "2fbd8c664395d45a0e53cda74b840d2d2abda26e7ce4b57bda6d479fb03bd500",
+      "adaptation": "byte-identical"
+    }
+  ]
+}

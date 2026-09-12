@@ -1,0 +1,12 @@
+{
+  "classification": "EXACT INTEGER",
+  "critical_fugacity": "1/sqrt(sqrt(2) + 2)",
+  "cyclotomic_polynomial": "t**16 - t**8 + 1",
+  "embedding": "t=exp(i*pi/24); mu=2cos(pi/8)>0",
+  "mu_exact": "sqrt(sqrt(2) + 2)",
+  "mu_polynomial_remainder": "0",
+  "pair_remainder": "0",
+  "scope": "local scalar cancellations only",
+  "triple_numerator_remainder": "0",
+  "wrong_phase_mutant_remainder": "-t**13 + t**12 + t**5 - 2*t**4 + t**3"
+}

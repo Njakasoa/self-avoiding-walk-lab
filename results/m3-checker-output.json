@@ -1,0 +1,7 @@
+{
+  "deadline_cases": 13,
+  "ladder_coefficients": 31,
+  "weighted_witnesses": 3,
+  "prudent_singularities": 5,
+  "status": "PASS; finite checkpoint, M3 theorem open"
+}

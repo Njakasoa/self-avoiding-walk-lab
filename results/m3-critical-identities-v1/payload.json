@@ -1,0 +1,34 @@
+{
+  "independent": {
+    "A_equals_A1": true,
+    "hook_equals_t2_A2": true,
+    "moment_identity_mod_q_relation": true,
+    "positive_hook_decomposition": true,
+    "telescoping_powers_checked": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "root": {
+    "checks": {
+      "A_difference_of_first_powers": true,
+      "Ah_difference_of_squares": true,
+      "coboundary_power_1": true,
+      "coboundary_power_2": true,
+      "first_boundary": true,
+      "formal_critical_ODE_partial_fractions": true,
+      "h_minus_kg": true,
+      "kernel_CD_identity": true,
+      "product_recurrence": true,
+      "second_boundary": true,
+      "zeroth_moment_constant": true
+    },
+    "classification": "EXACT IDENTITIES; critical scaling limit UNPROVED",
+    "formal_critical_exponent": "1/sqrt(2)",
+    "kernel_relation": "q**2*t - q*(t**3 + t**2 - t + 1) + t",
+    "scope": "No noncancellation or discrete-to-continuum convergence theorem follows from these identities alone."
+  }
+}

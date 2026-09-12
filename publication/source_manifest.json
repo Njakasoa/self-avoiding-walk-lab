@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "scope": "Static publication inputs; generated figures, PDF and validation outputs are hashed separately.",
+  "sha256": {
+    "ANALYTIC_REVIEW.md": "21ec2f2166984901705bf57abebb326c33494376cec55bdfcfb44d76021aea30",
+    "CONTRIBUTION_REVIEW.md": "4dcd2c8879ea13b824c0f3774e81de8c5069f6249b00180269bf4081a3df7703",
+    "PRIORITY_AUDIT.md": "6c4918fbdc8fe402a1521c865e7aef40399501eec483cbadf661d1c303d54144",
+    "QUADRATURE_REVIEW.md": "317de851cd827fb1b7dbc95e9c3d6afee5753ae5da67fed92bf3aae83b5afc7d",
+    "README.md": "3850a14e9a9f2be851d44660f99157de5ffe058f8b1809f94f82350628bafd46",
+    "TOOLCHAIN.json": "e4c6350bbdffac6d3c8411e0de71ae9cefa9e9a6ac2b51abb9fe56103dc7d5c5",
+    "VALIDATION.md": "e658dc0c5b1f2c98816f2048b9d3fabb918732467ff490212478eb7445b16607",
+    "figures/generate.py": "d957b1a0ee81d38ca53f08e270344ad1031dcc8d59be36186fd64145e346c01d",
+    "main.tex": "d020e1c1d58e08bc642e74d7da5a1f02df33eb42defcfd6053d1a7bf250fd0e0",
+    "proof-checkers/PROVENANCE.json": "332181a2ed4716be17fc896b969b6339563c4f99da0f0ff17623a15fae7a4ffc",
+    "proof-checkers/README.md": "e81a4332851cea1d76114339702542d1bd7b3887d2de26b8f2e03161e7ba5876",
+    "proof-checkers/critical_integrals.py": "9e5c593b76a41435315be6d0f1e163fcd082a2c88b4cff0f0aaad67a23f0f2c5",
+    "proof-checkers/expected-integrals.json": "060d525c2dcbe4051ae29d9e9d5dd90a6bfba862b5274e6703084823970c0c23",
+    "proof-checkers/independent_identities.py": "4b6ea78b9016139de7da00ebaa50f1e3eb354111f5c78668d2e7ddc228313dd1",
+    "proof-checkers/intervals.py": "a2230bdeedbefcd5550cc64f304dcdd4b887a5c60f77e4f7cac974ad71451ff1",
+    "proof-checkers/moment_identities.py": "da79d60772e70d2db3301ac305909e7b1df290bbf4e4ff086687dc52d9c3d98c",
+    "proof-checkers/reference_counts.py": "2fbd8c664395d45a0e53cda74b840d2d2abda26e7ce4b57bda6d479fb03bd500",
+    "references.bib": "c16c58db8fcddd550c6a334efcea309352a268b456552de4622f37def33b7eed",
+    "reproduce.py": "82446050879ccf56b2b8b0e1843a340d8e21af39803178b33f22a505548d5f8c",
+    "requirements-lock.txt": "0a7e3145a65547679184c1d024934151a55cee1965e5b65c9387aa35b0e7d90d"
+  }
+}

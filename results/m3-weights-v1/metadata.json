@@ -1,0 +1,38 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m3_research_batch.py weights --run-id m3-weights-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m3-weights-v1",
+  "git_commit": "9c6dd75fdfe19e61337439bf6079ae2cda7a1c23",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m3_research_batch.py": "080d5c438c7a42ab64a168ad49528d2bde7af091687d9d9cab91c73196e7fcaf",
+    "experiments/m3_weight_partition_probe.py": "98de086b38e842ac055c650e6706b9dcbbbf47fbd7843136d35b4ffec170d556",
+    "src/discovery_memory.py": "4f5e2da90e788819b02c58b9c616abc436fdda2c93c724369f54ff011aba3dee",
+    "src/equitable.py": "b18072f0f546a83b744fcde850c162fd1eb1a259c8057b3db18c016119851e01",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "2a30b8dd0ac4aeca7ee5a87b70e86007a9e0b5ccaca6c58ed0d04ec748cf4299"
+  },
+  "parameters": {
+    "memories": [
+      3,
+      5,
+      7,
+      9,
+      11,
+      12
+    ]
+  },
+  "peak_rss_kib_process": 235412,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 35.02627858399501,
+  "seed": null,
+  "utc": "2026-09-12T09:34:52.039167+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

@@ -1,0 +1,38 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m1_enumeration.py m1-enumeration-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m1-enumeration-v1",
+  "git_commit": "61b85b141bb642cfff961025b1a75f0994080fad",
+  "git_dirty": true,
+  "input_hashes": {
+    "NORMALIZATION.md": "37849ff3ddc245d187c1418a75f4d2a65d438c1b181a3effa25dbfe0d5741ec7",
+    "data/A001411.txt": "fcfb9abf684d364632e20e34447671ff671d85895c03fd3121aff850f776c8e9",
+    "experiments/m1_enumeration.py": "783f75be4fe3c30bb57dcad891f2a9e6776430f710da6e8e5de0a7af8f156f3c",
+    "proofs/CONNECTIVITY_TM.md": "a5bf23aab4fbfd63652f13c16a06ac0d77ed0222ba0c52b779310fd66206439e",
+    "proofs/TRANSFER_MATRIX.md": "1b3eb3c7f9f9cbe14c9cdb3a8236b7e69534d782e78d0b8d47b1a62dd61d2449",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "src/connectivity_tm.py": "d612fd9819db9a2a9ee888900cbb3d4a8885145e010a80ab04e814ba2e9c0c9d",
+    "src/optimized_enumerator.cpp": "d3727ae634c03eb0e752b684fe91353fec5fbf28a09eabc10a985108827368dc",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34",
+    "src/reference_enumerator.py": "23a8757fc72331dbf6523c23c32cddfdcf69ac2a04e55aeee8fe39946d43dc3d",
+    "src/transfer_matrix.py": "4f9635db2a760b450cff231c545d2cee79bde0f3279702995654e99b740787ea"
+  },
+  "output_hashes": {
+    "payload.json": "a8d6f66ab288eea5d712dce01fb32c0ca8a275aab516b8be4ac3307e5f84d65b"
+  },
+  "parameters": {
+    "optimized_n": 20,
+    "reference_n": 14
+  },
+  "peak_rss_kib_process": 30548,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 3.3273161180040915,
+  "seed": null,
+  "utc": "2026-09-12T07:58:18.933932+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

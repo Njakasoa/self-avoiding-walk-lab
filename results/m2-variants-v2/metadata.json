@@ -1,0 +1,43 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m2_variants.py m2-variants-v2",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m2-variants-v2",
+  "git_commit": "609654304675da0ad4e4acb4e1bfef2b48f50231",
+  "git_dirty": true,
+  "input_hashes": {
+    "environment/NEXT_GOAL_BRIEF.md": "fbe4f53e213e72bd4c95a9a7c8f47c4c9e909875516e6c4e20611811d9f893dc",
+    "experiments/m2_variants.py": "908f221a765a2fb40d4ee4c3e679ce601e3e236571e71124ea58d686727d25a8",
+    "proofs/DISCOVERY_MEMORY.md": "2765ad7652d07df8f99b0c95634849a4d89b4f75f4d4a38730dd8680e15e9673",
+    "proofs/EQUITABLE_COMPRESSION.md": "fa19eb28b37a830e04832db92ac8be17315ad659f214a462cf314cf6200ffaca",
+    "requirements-lock.txt": "2e57ddd45362cddee6307d6a33b84a5d291743d34ed17611e2ad7c51562c1206",
+    "src/bridge_spans.py": "8f0ae85807b7415de3a9b60a66f4d6dbd28c31784dac33948e80bd50455453ad",
+    "src/bridges.py": "0a5a965fa28d69e43ac6c128a219faa67d0154e18aafd39ed7c4b641e7419b38",
+    "src/connectivity_tm.py": "d612fd9819db9a2a9ee888900cbb3d4a8885145e010a80ab04e814ba2e9c0c9d",
+    "src/discovery_engine.py": "d249acf1324812a70f66808d186e154d2e86bf41f43d33110e636b3f6b019026",
+    "src/discovery_memory.py": "4f5e2da90e788819b02c58b9c616abc436fdda2c93c724369f54ff011aba3dee",
+    "src/equitable.py": "b18072f0f546a83b744fcde850c162fd1eb1a259c8057b3db18c016119851e01",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34",
+    "src/reference_enumerator.py": "23a8757fc72331dbf6523c23c32cddfdcf69ac2a04e55aeee8fe39946d43dc3d"
+  },
+  "output_hashes": {
+    "payload.json": "e2f6b45986ccf94f9354fb911d5e75a11365cf6b9ad079fcd432ec345e7fb7c4"
+  },
+  "parameters": {
+    "memories": [
+      3,
+      5
+    ],
+    "wall_seconds_per_case": 60
+  },
+  "peak_rss_kib_process": 20992,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 1.450232203998894,
+  "seed": null,
+  "utc": "2026-09-12T08:47:22.489592+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

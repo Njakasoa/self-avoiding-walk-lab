@@ -1,0 +1,48 @@
+{
+  "agent": "root integration; role routing in ORCHESTRATION_LOG.md",
+  "command": "PYTHONPATH=. .venv/bin/python experiments/m3_research_batch.py deadline --run-id m3-deadline-v1",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "cpu": "AMD Ryzen 7 5800X 8-Core Processor",
+  "deterministic": true,
+  "experiment_id": "m3-deadline-v1",
+  "git_commit": "9c6dd75fdfe19e61337439bf6079ae2cda7a1c23",
+  "git_dirty": true,
+  "input_hashes": {
+    "experiments/m3_deadline_probe.py": "0da719a55dc8891f23691f7644a7a618d9d16a91a3ae1ee4a263d1609f22e526",
+    "experiments/m3_research_batch.py": "080d5c438c7a42ab64a168ad49528d2bde7af091687d9d9cab91c73196e7fcaf",
+    "proofs/M3_AUTOMATON_SCOUT.md": "a35a200b89ffb7cce6f88f4323598cf2ef7a1dd0f60464b1feafa2f258265be6",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34"
+  },
+  "output_hashes": {
+    "payload.json": "5f55bc450fd61b4ddc3adc90cab2b7811338c4d283ef957d6905758b19395d3f"
+  },
+  "parameters": {
+    "case_seconds": 60,
+    "compare_raw_through": 9,
+    "iterations": 60,
+    "max_states": 100000,
+    "memories": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "peak_rss_kib_process": 94756,
+  "peak_rss_scope": "Python producer process; child C++ memory not measured",
+  "python": "3.12.3",
+  "ram": "MemTotal:       44138100 kB",
+  "runtime_seconds": 3.682113359995128,
+  "seed": null,
+  "utc": "2026-09-12T09:34:52.078378+00:00",
+  "verification_status": "producer assertions passed; separate verifier required"
+}

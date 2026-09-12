@@ -1,0 +1,27 @@
+{
+  "captured_summary": "49 passed in 8.44s",
+  "command": "PYTHONPATH=. .venv/bin/python -m pytest -q",
+  "exit_code": 0,
+  "input_hashes": {
+    "src/automaton.py": "a991e131abf8bead9acaf9950ae6735dd146ace88d38d7b687a3880046e460fd",
+    "src/bridge_spans.py": "8f0ae85807b7415de3a9b60a66f4d6dbd28c31784dac33948e80bd50455453ad",
+    "src/bridges.py": "0a5a965fa28d69e43ac6c128a219faa67d0154e18aafd39ed7c4b641e7419b38",
+    "src/connectivity_tm.py": "d612fd9819db9a2a9ee888900cbb3d4a8885145e010a80ab04e814ba2e9c0c9d",
+    "src/discovery_engine.py": "d249acf1324812a70f66808d186e154d2e86bf41f43d33110e636b3f6b019026",
+    "src/discovery_memory.py": "4f5e2da90e788819b02c58b9c616abc436fdda2c93c724369f54ff011aba3dee",
+    "src/equitable.py": "b18072f0f546a83b744fcde850c162fd1eb1a259c8057b3db18c016119851e01",
+    "src/optimized_enumerator.cpp": "808fe26672b680e055e786f7229f023e0004e2510312719619b84af97e051d52",
+    "src/provenance.py": "c82faec776899d6de355731e5194a43971106f40c53cdeb89c0ab5e96ed68b34",
+    "src/reference_enumerator.py": "23a8757fc72331dbf6523c23c32cddfdcf69ac2a04e55aeee8fe39946d43dc3d",
+    "src/transfer_matrix.py": "4f9635db2a760b450cff231c545d2cee79bde0f3279702995654e99b740787ea",
+    "src/weighted_he.py": "e4008b8779d3d740d6eb538ff317564a5a9a67572b796c7859fbb00d8205d0b3",
+    "tests/test_discovery.py": "f50fdfeca5433a00f6dbc0ff2316b01fa91b1407a1d33f55bfed22aab9bab253",
+    "tests/test_discovery_interface.py": "7a596eb3b6939201891397350f092c875d4c56f7d5dda76bbedced26b032c08f",
+    "tests/test_independent_m1.py": "492f79d90985fb10ce216aa112cf8cd5dacde608f2cdec3fdb9b261b65b83ddf",
+    "tests/test_optimized_modes.py": "848096af1b923bec62c4d080939b0084e75ce6bdbe52dfbc6c4e046779fa73a8"
+  },
+  "scope": "Actual completed full-suite run; summary transcribed from tool output, source bytes checked against commit.",
+  "source_commit": "eed1923e78f7cf5d0fa643e3d09b4b1826d8ff92",
+  "test_count": 49,
+  "tool_session": 54581
+}

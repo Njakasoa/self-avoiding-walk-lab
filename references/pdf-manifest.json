@@ -1,0 +1,14 @@
+{
+  "papers/he-2508.01993.pdf": {
+    "sha256": "38bf4354ac1d72b878897bbac04e3b2176c2451780057368b23bc426d7cf8af3",
+    "pages": 20
+  },
+  "papers/couronne-2211.16146.pdf": {
+    "sha256": "8e3d98d2bdddeed5f23392ab1299e379fba97b670b84a1acaa7408a30db01058",
+    "pages": 8
+  },
+  "papers/duminil-copin-smirnov-1007.0575.pdf": {
+    "sha256": "11335571f5118514b5f761ad3d750e11b5537b1390aa3444742339b86e65bb8a",
+    "pages": 11
+  }
+}
